@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIStepper+FlatUI.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIStepper(FlatUI)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIStepper+FlatUI.h</DeclaredIn>
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIStepper(FlatUI)/configureFlatStepperWithColor:highlightedColor:disabledColor:iconColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIStepper+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>- (void)configureFlatStepperWithColor:(UIColor *)color highlightedColor:(UIColor *)highlightedColor disabledColor:(UIColor *)disabledColor iconColor:(UIColor *)iconColor</Declaration>
+			
+			
+			<Anchor>//api/name/configureFlatStepperWithColor:highlightedColor:disabledColor:iconColor:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

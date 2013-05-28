@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>MGBox2 2.0.0</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="18"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>MGBlockWrapper</Name>
+			<Path>Classes/MGBlockWrapper.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>MGBox</Name>
+			<Path>Classes/MGBox.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>MGButton</Name>
+			<Path>Classes/MGButton.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>MGLayoutManager</Name>
+			<Path>Classes/MGLayoutManager.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>MGLine</Name>
+			<Path>Classes/MGLine.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>MGLineStyled</Name>
+			<Path>Classes/MGLineStyled.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>MGMushParser</Name>
+			<Path>Classes/MGMushParser.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>MGScrollView</Name>
+			<Path>Classes/MGScrollView.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>MGTableBox</Name>
+			<Path>Classes/MGTableBox.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>MGTableBoxStyled</Name>
+			<Path>Classes/MGTableBoxStyled.html</Path>
+		</Node>
+		
+		<Node id="11">
+			<Name>NSAttributedString(MGTrim)</Name>
+			<Path>Categories/NSAttributedString+MGTrim.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>NSObject(MGEvents)</Name>
+			<Path>Categories/NSObject+MGEvents.html</Path>
+		</Node>
+		<Node id="13">
+			<Name>UIColor(MGExpanded)</Name>
+			<Path>Categories/UIColor+MGExpanded.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>UIColor(Undocumented_Expanded)</Name>
+			<Path>Categories/UIColor+Undocumented_Expanded.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>UIControl(MGEvents)</Name>
+			<Path>Categories/UIControl+MGEvents.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>UIResponder(FirstResponder)</Name>
+			<Path>Categories/UIResponder+FirstResponder.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>UIView(MGEasyFrame)</Name>
+			<Path>Categories/UIView+MGEasyFrame.html</Path>
+		</Node>
+		
+		<Node id="18">
+			<Name>MGLayoutBox</Name>
+			<Path>Protocols/MGLayoutBox.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/FUISwitch.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/FUISwitch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUISwitch/setOn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, getter=isOn) BOOL on</Declaration>
+			
+			
+			<Anchor>//api/name/on</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUISwitch/on</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, getter=isOn) BOOL on</Declaration>
+			
+			
+			<Anchor>//api/name/on</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUISwitch/setOnBackgroundColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *onBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/onBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUISwitch/onBackgroundColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *onBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/onBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUISwitch/setOffBackgroundColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *offBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/offBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUISwitch/offBackgroundColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *offBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/offBackgroundColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUISwitch/setOnColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *onColor</Declaration>
+			
+			
+			<Anchor>//api/name/onColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUISwitch/onColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *onColor</Declaration>
+			
+			
+			<Anchor>//api/name/onColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUISwitch/setOffColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *offColor</Declaration>
+			
+			
+			<Anchor>//api/name/offColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUISwitch/offColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *offColor</Declaration>
+			
+			
+			<Anchor>//api/name/offColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUISwitch/setHighlightedColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *highlightedColor</Declaration>
+			
+			
+			<Anchor>//api/name/highlightedColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUISwitch/highlightedColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *highlightedColor</Declaration>
+			
+			
+			<Anchor>//api/name/highlightedColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUISwitch/setPercentOn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat percentOn</Declaration>
+			
+			
+			<Anchor>//api/name/percentOn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUISwitch/percentOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat percentOn</Declaration>
+			
+			
+			<Anchor>//api/name/percentOn</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUISwitch/setOffLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, readwrite, nonatomic) UILabel *offLabel</Declaration>
+			
+			
+			<Anchor>//api/name/offLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUISwitch/offLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, readwrite, nonatomic) UILabel *offLabel</Declaration>
+			
+			
+			<Anchor>//api/name/offLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUISwitch/setOnLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, readwrite, nonatomic) UILabel *onLabel</Declaration>
+			
+			
+			<Anchor>//api/name/onLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUISwitch/onLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>@property (weak, readwrite, nonatomic) UILabel *onLabel</Declaration>
+			
+			
+			<Anchor>//api/name/onLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUISwitch/setOn:animated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUISwitch.h</DeclaredIn>			
+			
+			<Declaration>- (void)setOn:(BOOL)on animated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/setOn:animated:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

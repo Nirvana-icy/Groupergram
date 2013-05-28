@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIImage+FlatUI.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIImage(FlatUI)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+FlatUI.h</DeclaredIn>
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(FlatUI)/imageWithColor:cornerRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIImage *)imageWithColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/imageWithColor:cornerRadius:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(FlatUI)/buttonImageWithColor:cornerRadius:shadowColor:shadowInsets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIImage *)buttonImageWithColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius shadowColor:(UIColor *)shadowColor shadowInsets:(UIEdgeInsets)shadowInsets</Declaration>
+			
+			
+			<Anchor>//api/name/buttonImageWithColor:cornerRadius:shadowColor:shadowInsets:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(FlatUI)/circularImageWithColor:size:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIImage *)circularImageWithColor:(UIColor *)color size:(CGSize)size</Declaration>
+			
+			
+			<Anchor>//api/name/circularImageWithColor:size:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(FlatUI)/imageWithMinimumSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>- (UIImage *)imageWithMinimumSize:(CGSize)size</Declaration>
+			
+			
+			<Anchor>//api/name/imageWithMinimumSize:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(FlatUI)/stepperPlusImageWithColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIImage *)stepperPlusImageWithColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/stepperPlusImageWithColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(FlatUI)/stepperMinusImageWithColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIImage *)stepperMinusImageWithColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/stepperMinusImageWithColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIImage(FlatUI)/backButtonImageWithColor:barMetrics:cornerRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIImage+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIImage *)backButtonImageWithColor:(UIColor *)color barMetrics:(UIBarMetrics)metrics cornerRadius:(CGFloat)cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/backButtonImageWithColor:barMetrics:cornerRadius:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

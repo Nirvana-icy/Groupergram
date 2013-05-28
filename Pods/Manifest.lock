@@ -1,0 +1,31 @@
+PODS:
+  - AFNetworking (1.2.1)
+  - FlatUIKit (1.0)
+  - GMGridView (1.1.1)
+  - SDURLCache (1.2)
+  - SDWebImage (3.2):
+    - SDWebImage/MapKit
+  - SDWebImage/MapKit (3.2)
+  - UAModalPanel (1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 1.2.0)
+  - FlatUIKit (~> 1.0)
+  - GMGridView (~> 1.1.1)
+  - SDURLCache (~> 1.2)
+  - SDWebImage (~> 3.2)
+  - UAModalPanel (from `https://github.com/creativemess/UAModalPanel.git`)
+
+EXTERNAL SOURCES:
+  UAModalPanel:
+    :git: https://github.com/creativemess/UAModalPanel.git
+
+SPEC CHECKSUMS:
+  AFNetworking: a44069e3c9c89867544f6639482f155c7e5f9b41
+  FlatUIKit: 3d2c6375ed741a8e8ffe663a3c1fe52d84309f04
+  GMGridView: a17a31f010990eb8f802abb4cab50e6e03e993ea
+  SDURLCache: cf4dcdd0d01473c334e9338e82a8733de156ef15
+  SDWebImage: 4e2b2287a54c052cb0d717bcdf37387b9c4751ae
+  UAModalPanel: a76e741ecbfd27107b0be58da3657b42f4247cae
+
+COCOAPODS: 0.19.1

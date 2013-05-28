@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>FlatUIKit 1.0</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="12"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>FUIAlertView</Name>
+			<Path>Classes/FUIAlertView.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>FUIButton</Name>
+			<Path>Classes/FUIButton.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>FUISwitch</Name>
+			<Path>Classes/FUISwitch.html</Path>
+		</Node>
+		
+		<Node id="4">
+			<Name>UIBarButtonItem(FlatUI)</Name>
+			<Path>Categories/UIBarButtonItem+FlatUI.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>UIColor(FlatUI)</Name>
+			<Path>Categories/UIColor+FlatUI.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>UIFont(FlatUI)</Name>
+			<Path>Categories/UIFont+FlatUI.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>UIImage(FlatUI)</Name>
+			<Path>Categories/UIImage+FlatUI.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>UINavigationBar(FlatUI)</Name>
+			<Path>Categories/UINavigationBar+FlatUI.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>UISlider(FlatUI)</Name>
+			<Path>Categories/UISlider+FlatUI.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>UIStepper(FlatUI)</Name>
+			<Path>Categories/UIStepper+FlatUI.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>UITabBar(FlatUI)</Name>
+			<Path>Categories/UITabBar+FlatUI.html</Path>
+		</Node>
+		
+		<Node id="12">
+			<Name>FUIAlertViewDelegate</Name>
+			<Path>Protocols/FUIAlertViewDelegate.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

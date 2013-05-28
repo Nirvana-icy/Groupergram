@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+MGEasyFrame.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(MGEasyFrame)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(MGEasyFrame)/setSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(MGEasyFrame)/size</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(MGEasyFrame)/setWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(MGEasyFrame)/width</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(MGEasyFrame)/setHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(MGEasyFrame)/height</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(MGEasyFrame)/setOrigin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGPoint origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(MGEasyFrame)/origin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGPoint origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(MGEasyFrame)/setX:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(MGEasyFrame)/x</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(MGEasyFrame)/setY:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIView(MGEasyFrame)/y</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(MGEasyFrame)/topLeft</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>- (CGPoint)topLeft</Declaration>
+			
+			
+			<Anchor>//api/name/topLeft</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(MGEasyFrame)/topRight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>- (CGPoint)topRight</Declaration>
+			
+			
+			<Anchor>//api/name/topRight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(MGEasyFrame)/bottomRight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>- (CGPoint)bottomRight</Declaration>
+			
+			
+			<Anchor>//api/name/bottomRight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(MGEasyFrame)/bottomLeft</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIView+MGEasyFrame.h</DeclaredIn>			
+			
+			<Declaration>- (CGPoint)bottomLeft</Declaration>
+			
+			
+			<Anchor>//api/name/bottomLeft</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

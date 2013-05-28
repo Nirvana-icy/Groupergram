@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MGMushParser.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MGMushParser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGMushParser.h</DeclaredIn>
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGMushParser/setMush:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGMushParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *mush</Declaration>
+			
+			
+			<Anchor>//api/name/mush</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGMushParser/mush</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGMushParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *mush</Declaration>
+			
+			
+			<Anchor>//api/name/mush</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGMushParser/setBaseFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGMushParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIFont *baseFont</Declaration>
+			
+			
+			<Anchor>//api/name/baseFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGMushParser/baseFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGMushParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIFont *baseFont</Declaration>
+			
+			
+			<Anchor>//api/name/baseFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGMushParser/setBaseColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGMushParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *baseColor</Declaration>
+			
+			
+			<Anchor>//api/name/baseColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGMushParser/baseColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGMushParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *baseColor</Declaration>
+			
+			
+			<Anchor>//api/name/baseColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGMushParser/attributedStringFromMush:font:color:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGMushParser.h</DeclaredIn>			
+			
+			<Declaration>+ (NSAttributedString *)attributedStringFromMush:(NSString *)markdown font:(UIFont *)font color:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/attributedStringFromMush:font:color:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGMushParser/parse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGMushParser.h</DeclaredIn>			
+			
+			<Declaration>- (void)parse</Declaration>
+			
+			
+			<Anchor>//api/name/parse</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGMushParser/strip</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGMushParser.h</DeclaredIn>			
+			
+			<Declaration>- (void)strip</Declaration>
+			
+			
+			<Anchor>//api/name/strip</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGMushParser/attributedString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGMushParser.h</DeclaredIn>			
+			
+			<Declaration>- (NSAttributedString *)attributedString</Declaration>
+			
+			
+			<Anchor>//api/name/attributedString</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSAttributedString+MGTrim.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSAttributedString(MGTrim)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSAttributedString+MGTrim.h</DeclaredIn>
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSAttributedString(MGTrim)/attributedStringByTrimming:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSAttributedString+MGTrim.h</DeclaredIn>			
+			
+			<Declaration>- (NSAttributedString *)attributedStringByTrimming:(NSCharacterSet *)set</Declaration>
+			
+			
+			<Anchor>//api/name/attributedStringByTrimming:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

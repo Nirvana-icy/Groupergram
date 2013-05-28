@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UINavigationBar+FlatUI.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UINavigationBar(FlatUI)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UINavigationBar+FlatUI.h</DeclaredIn>
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UINavigationBar(FlatUI)/configureFlatNavigationBarWithColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UINavigationBar+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>- (void)configureFlatNavigationBarWithColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/configureFlatNavigationBarWithColor:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

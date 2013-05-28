@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>MFSideMenu 0.2 Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.6 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">MFSideMenu 0.2 </a></h1>
+				<a id="developerHome" href="index.html">mikefrederick</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">MFSideMenu 0.2 Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">MFSideMenu 0.2 Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<h1>MFSideMenu</h1>
+
+<p>=======</p>
+
+<p>This project was inspired by the Facebook iOS app. The idea is to give a slideout menu to a UINavigationController-based app.</p>
+
+<p>=======</p>
+
+<p><a href="http://i.imgur.com/jf2RM.png"><img src="http://i.imgur.com/jf2RM.png" alt="" /></a>
+[<img src="http://i.imgur.com/Ah5mP.png" alt="" />
+[<img src="http://i.imgur.com/KN4IB.png" alt="" /></p>
+
+<h1>Features</h1>
+
+<ul>
+<li>UIBarButtonItem for sliding your UINavigationController to show/hide a menu (UITableViewController) for your app.</li>
+<li>Ability to slide the UINavigationBar to the right in order to display the menu.</li>
+<li>Ability to tap or drag the UINavigationController back when the menu is visible.</li>
+<li>Shadow between UINavigationController and menu</li>
+<li>Universal support (iPhone + iPad)</li>
+<li>Landscape support</li>
+<li>Lightweight, simple and readable code.</li>
+</ul>
+
+
+<h1>Installation</h1>
+
+<p>Note: QuartzCore is required for shadow rendering</p>
+
+<ol>
+<li>Bring the MFSideMenu folder into your project.</li>
+<li>Create your menu (a UITableViewController &mdash; in the demo this is the SideMenuViewController class)</li>
+<li>In your UIViewController, import MFSideMenu.h and then add this to your viewDidLoad method:<br />
+ <code>[self setupSideMenuBarButtonItem];</code></li>
+<li>Initiate MFSideMenu in your app delegate:<br />
+ <code>self.window.rootViewController = navigationController;</code><br />
+ <code>[self.window makeKeyAndVisible];</code><br />
+ <code>[</code>MFSideMenuManager<code> configureWithNavigationController:navigationController sideMenuController:sideMenuViewController];</code></li>
+</ol>
+
+
+<h1>License</h1>
+
+<p>Copyright &copy; 2012, Michael Frederick
+All rights reserved.</p>
+
+<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+
+<ul>
+<li><p>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</p></li>
+<li><p>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</p></li>
+<li><p>Neither the name of Michael Frederick, &lsquo;viamike.com&rsquo; nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</p></li>
+</ul>
+
+
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &ldquo;AS IS&rdquo; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Michael Frederick BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+
+<h1>Contact</h1>
+
+<p>mike@viamike.com<br />
+<a href="http://viamike.com">http://viamike.com</a><br />
+<a href="http://twitter.com/mike_frederick">http://twitter.com/mike_frederick</a></p>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/MFSideMenuManager.html">MFSideMenuManager</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						
+						<h2 class="index-title">Category References</h2>
+						<ul>
+							
+							<li><a href="Categories/UIViewController+MFSideMenu.html">UIViewController(MFSideMenu)</a></li>
+							
+						</ul>
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 mikefrederick. All rights reserved. (Last updated: 2013-05-25)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.6 (build 789)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>

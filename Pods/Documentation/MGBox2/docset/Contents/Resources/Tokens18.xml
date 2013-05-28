@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/MGLayoutBox.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/MGLayoutBox</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setBoxes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableOrderedSet *boxes</Declaration>
+			
+			
+			<Anchor>//api/name/boxes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/boxes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableOrderedSet *boxes</Declaration>
+			
+			
+			<Anchor>//api/name/boxes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setParentBox:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) UIView&lt;MGLayoutBox&gt; *parentBox</Declaration>
+			
+			
+			<Anchor>//api/name/parentBox</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/parentBox</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) UIView&lt;MGLayoutBox&gt; *parentBox</Declaration>
+			
+			
+			<Anchor>//api/name/parentBox</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setAsyncLayout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block asyncLayout</Declaration>
+			
+			
+			<Anchor>//api/name/asyncLayout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/asyncLayout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block asyncLayout</Declaration>
+			
+			
+			<Anchor>//api/name/asyncLayout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setAsyncLayoutOnce:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block asyncLayoutOnce</Declaration>
+			
+			
+			<Anchor>//api/name/asyncLayoutOnce</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/asyncLayoutOnce</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block asyncLayoutOnce</Declaration>
+			
+			
+			<Anchor>//api/name/asyncLayoutOnce</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setAsyncQueue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) dispatch_queue_t asyncQueue</Declaration>
+			
+			
+			<Anchor>//api/name/asyncQueue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/asyncQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) dispatch_queue_t asyncQueue</Declaration>
+			
+			
+			<Anchor>//api/name/asyncQueue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setMargin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UIEdgeInsets margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/margin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UIEdgeInsets margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setTopMargin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat topMargin</Declaration>
+			
+			
+			<Anchor>//api/name/topMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/topMargin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat topMargin</Declaration>
+			
+			
+			<Anchor>//api/name/topMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setBottomMargin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat bottomMargin</Declaration>
+			
+			
+			<Anchor>//api/name/bottomMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/bottomMargin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat bottomMargin</Declaration>
+			
+			
+			<Anchor>//api/name/bottomMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setLeftMargin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat leftMargin</Declaration>
+			
+			
+			<Anchor>//api/name/leftMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/leftMargin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat leftMargin</Declaration>
+			
+			
+			<Anchor>//api/name/leftMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setRightMargin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat rightMargin</Declaration>
+			
+			
+			<Anchor>//api/name/rightMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/rightMargin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat rightMargin</Declaration>
+			
+			
+			<Anchor>//api/name/rightMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setBoxLayoutMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGBoxLayoutMode boxLayoutMode</Declaration>
+			
+			
+			<Anchor>//api/name/boxLayoutMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/boxLayoutMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGBoxLayoutMode boxLayoutMode</Declaration>
+			
+			
+			<Anchor>//api/name/boxLayoutMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setSizingMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGBoxResizingMode sizingMode</Declaration>
+			
+			
+			<Anchor>//api/name/sizingMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/sizingMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGBoxResizingMode sizingMode</Declaration>
+			
+			
+			<Anchor>//api/name/sizingMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setFixedPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGPoint fixedPosition</Declaration>
+			
+			
+			<Anchor>//api/name/fixedPosition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/fixedPosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGPoint fixedPosition</Declaration>
+			
+			
+			<Anchor>//api/name/fixedPosition</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setReplacementFor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) UIView *replacementFor</Declaration>
+			
+			
+			<Anchor>//api/name/replacementFor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/replacementFor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) UIView *replacementFor</Declaration>
+			
+			
+			<Anchor>//api/name/replacementFor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setAttachedTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) UIView *attachedTo</Declaration>
+			
+			
+			<Anchor>//api/name/attachedTo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/attachedTo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) UIView *attachedTo</Declaration>
+			
+			
+			<Anchor>//api/name/attachedTo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setZIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int zIndex</Declaration>
+			
+			
+			<Anchor>//api/name/zIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/zIndex</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) int zIndex</Declaration>
+			
+			
+			<Anchor>//api/name/zIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UIEdgeInsets padding</Declaration>
+			
+			
+			<Anchor>//api/name/padding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/padding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UIEdgeInsets padding</Declaration>
+			
+			
+			<Anchor>//api/name/padding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setTopPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat topPadding</Declaration>
+			
+			
+			<Anchor>//api/name/topPadding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/topPadding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat topPadding</Declaration>
+			
+			
+			<Anchor>//api/name/topPadding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setRightPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat rightPadding</Declaration>
+			
+			
+			<Anchor>//api/name/rightPadding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/rightPadding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat rightPadding</Declaration>
+			
+			
+			<Anchor>//api/name/rightPadding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setBottomPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat bottomPadding</Declaration>
+			
+			
+			<Anchor>//api/name/bottomPadding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/bottomPadding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat bottomPadding</Declaration>
+			
+			
+			<Anchor>//api/name/bottomPadding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setLeftPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat leftPadding</Declaration>
+			
+			
+			<Anchor>//api/name/leftPadding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/leftPadding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat leftPadding</Declaration>
+			
+			
+			<Anchor>//api/name/leftPadding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setContentLayoutMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGContentLayoutMode contentLayoutMode</Declaration>
+			
+			
+			<Anchor>//api/name/contentLayoutMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/contentLayoutMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGContentLayoutMode contentLayoutMode</Declaration>
+			
+			
+			<Anchor>//api/name/contentLayoutMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setSlideBoxesInFromEmpty:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL slideBoxesInFromEmpty</Declaration>
+			
+			
+			<Anchor>//api/name/slideBoxesInFromEmpty</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/slideBoxesInFromEmpty</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL slideBoxesInFromEmpty</Declaration>
+			
+			
+			<Anchor>//api/name/slideBoxesInFromEmpty</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setLayingOut:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL layingOut</Declaration>
+			
+			
+			<Anchor>//api/name/layingOut</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/layingOut</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL layingOut</Declaration>
+			
+			
+			<Anchor>//api/name/layingOut</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/layout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>- (void)layout</Declaration>
+			
+			
+			<Anchor>//api/name/layout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setMaxWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat maxWidth</Declaration>
+			
+			
+			<Anchor>//api/name/maxWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/maxWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat maxWidth</Declaration>
+			
+			
+			<Anchor>//api/name/maxWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setTapper:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UITapGestureRecognizer *tapper</Declaration>
+			
+			
+			<Anchor>//api/name/tapper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/tapper</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UITapGestureRecognizer *tapper</Declaration>
+			
+			
+			<Anchor>//api/name/tapper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setTappable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL tappable</Declaration>
+			
+			
+			<Anchor>//api/name/tappable</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/tappable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL tappable</Declaration>
+			
+			
+			<Anchor>//api/name/tappable</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setOnTap:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block onTap</Declaration>
+			
+			
+			<Anchor>//api/name/onTap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/onTap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block onTap</Declaration>
+			
+			
+			<Anchor>//api/name/onTap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/tapped</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>- (void)tapped</Declaration>
+			
+			
+			<Anchor>//api/name/tapped</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setSwiper:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UISwipeGestureRecognizer *swiper</Declaration>
+			
+			
+			<Anchor>//api/name/swiper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/swiper</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UISwipeGestureRecognizer *swiper</Declaration>
+			
+			
+			<Anchor>//api/name/swiper</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setSwipable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL swipable</Declaration>
+			
+			
+			<Anchor>//api/name/swipable</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/swipable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL swipable</Declaration>
+			
+			
+			<Anchor>//api/name/swipable</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setOnSwipe:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block onSwipe</Declaration>
+			
+			
+			<Anchor>//api/name/onSwipe</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/onSwipe</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block onSwipe</Declaration>
+			
+			
+			<Anchor>//api/name/onSwipe</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/swiped</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>- (void)swiped</Declaration>
+			
+			
+			<Anchor>//api/name/swiped</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setLongPresser:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UILongPressGestureRecognizer *longPresser</Declaration>
+			
+			
+			<Anchor>//api/name/longPresser</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/longPresser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UILongPressGestureRecognizer *longPresser</Declaration>
+			
+			
+			<Anchor>//api/name/longPresser</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setLongPressable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL longPressable</Declaration>
+			
+			
+			<Anchor>//api/name/longPressable</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/longPressable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL longPressable</Declaration>
+			
+			
+			<Anchor>//api/name/longPressable</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/setOnLongPress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block onLongPress</Declaration>
+			
+			
+			<Anchor>//api/name/onLongPress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/MGLayoutBox/onLongPress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block onLongPress</Declaration>
+			
+			
+			<Anchor>//api/name/onLongPress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MGLayoutBox/longPressed</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutBox.h</DeclaredIn>			
+			
+			<Declaration>- (void)longPressed</Declaration>
+			
+			
+			<Anchor>//api/name/longPressed</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

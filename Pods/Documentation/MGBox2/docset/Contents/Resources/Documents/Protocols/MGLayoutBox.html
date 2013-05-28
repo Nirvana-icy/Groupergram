@@ -1,0 +1,1095 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>MGLayoutBox Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.6 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">MGBox2 2.0.0 </a></h1>
+				<a id="developerHome" href="../index.html">Matt Greenfield</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">MGLayoutBox Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/asyncLayout">&nbsp;&nbsp;&nbsp;&nbsp;asyncLayout</option>
+	
+	<option value="//api/name/asyncLayoutOnce">&nbsp;&nbsp;&nbsp;&nbsp;asyncLayoutOnce</option>
+	
+	<option value="//api/name/asyncQueue">&nbsp;&nbsp;&nbsp;&nbsp;asyncQueue</option>
+	
+	<option value="//api/name/attachedTo">&nbsp;&nbsp;&nbsp;&nbsp;attachedTo</option>
+	
+	<option value="//api/name/bottomMargin">&nbsp;&nbsp;&nbsp;&nbsp;bottomMargin</option>
+	
+	<option value="//api/name/bottomPadding">&nbsp;&nbsp;&nbsp;&nbsp;bottomPadding</option>
+	
+	<option value="//api/name/boxLayoutMode">&nbsp;&nbsp;&nbsp;&nbsp;boxLayoutMode</option>
+	
+	<option value="//api/name/boxes">&nbsp;&nbsp;&nbsp;&nbsp;boxes</option>
+	
+	<option value="//api/name/contentLayoutMode">&nbsp;&nbsp;&nbsp;&nbsp;contentLayoutMode</option>
+	
+	<option value="//api/name/fixedPosition">&nbsp;&nbsp;&nbsp;&nbsp;fixedPosition</option>
+	
+	<option value="//api/name/layingOut">&nbsp;&nbsp;&nbsp;&nbsp;layingOut</option>
+	
+	<option value="//api/name/leftMargin">&nbsp;&nbsp;&nbsp;&nbsp;leftMargin</option>
+	
+	<option value="//api/name/leftPadding">&nbsp;&nbsp;&nbsp;&nbsp;leftPadding</option>
+	
+	<option value="//api/name/longPressable">&nbsp;&nbsp;&nbsp;&nbsp;longPressable</option>
+	
+	<option value="//api/name/longPresser">&nbsp;&nbsp;&nbsp;&nbsp;longPresser</option>
+	
+	<option value="//api/name/margin">&nbsp;&nbsp;&nbsp;&nbsp;margin</option>
+	
+	<option value="//api/name/maxWidth">&nbsp;&nbsp;&nbsp;&nbsp;maxWidth</option>
+	
+	<option value="//api/name/onLongPress">&nbsp;&nbsp;&nbsp;&nbsp;onLongPress</option>
+	
+	<option value="//api/name/onSwipe">&nbsp;&nbsp;&nbsp;&nbsp;onSwipe</option>
+	
+	<option value="//api/name/onTap">&nbsp;&nbsp;&nbsp;&nbsp;onTap</option>
+	
+	<option value="//api/name/padding">&nbsp;&nbsp;&nbsp;&nbsp;padding</option>
+	
+	<option value="//api/name/parentBox">&nbsp;&nbsp;&nbsp;&nbsp;parentBox</option>
+	
+	<option value="//api/name/replacementFor">&nbsp;&nbsp;&nbsp;&nbsp;replacementFor</option>
+	
+	<option value="//api/name/rightMargin">&nbsp;&nbsp;&nbsp;&nbsp;rightMargin</option>
+	
+	<option value="//api/name/rightPadding">&nbsp;&nbsp;&nbsp;&nbsp;rightPadding</option>
+	
+	<option value="//api/name/sizingMode">&nbsp;&nbsp;&nbsp;&nbsp;sizingMode</option>
+	
+	<option value="//api/name/slideBoxesInFromEmpty">&nbsp;&nbsp;&nbsp;&nbsp;slideBoxesInFromEmpty</option>
+	
+	<option value="//api/name/swipable">&nbsp;&nbsp;&nbsp;&nbsp;swipable</option>
+	
+	<option value="//api/name/swiper">&nbsp;&nbsp;&nbsp;&nbsp;swiper</option>
+	
+	<option value="//api/name/tappable">&nbsp;&nbsp;&nbsp;&nbsp;tappable</option>
+	
+	<option value="//api/name/tapper">&nbsp;&nbsp;&nbsp;&nbsp;tapper</option>
+	
+	<option value="//api/name/topMargin">&nbsp;&nbsp;&nbsp;&nbsp;topMargin</option>
+	
+	<option value="//api/name/topPadding">&nbsp;&nbsp;&nbsp;&nbsp;topPadding</option>
+	
+	<option value="//api/name/zIndex">&nbsp;&nbsp;&nbsp;&nbsp;zIndex</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/layout">&nbsp;&nbsp;&nbsp;&nbsp;- layout</option>
+	
+	<option value="//api/name/longPressed">&nbsp;&nbsp;&nbsp;&nbsp;- longPressed</option>
+	
+	<option value="//api/name/swiped">&nbsp;&nbsp;&nbsp;&nbsp;- swiped</option>
+	
+	<option value="//api/name/tapped">&nbsp;&nbsp;&nbsp;&nbsp;- tapped</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/asyncLayout">asyncLayout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/asyncLayoutOnce">asyncLayoutOnce</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/asyncQueue">asyncQueue</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attachedTo">attachedTo</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bottomMargin">bottomMargin</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bottomPadding">bottomPadding</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/boxLayoutMode">boxLayoutMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/boxes">boxes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contentLayoutMode">contentLayoutMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fixedPosition">fixedPosition</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/layingOut">layingOut</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/leftMargin">leftMargin</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/leftPadding">leftPadding</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/longPressable">longPressable</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/longPresser">longPresser</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/margin">margin</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maxWidth">maxWidth</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onLongPress">onLongPress</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSwipe">onSwipe</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTap">onTap</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/padding">padding</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parentBox">parentBox</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/replacementFor">replacementFor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rightMargin">rightMargin</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rightPadding">rightPadding</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sizingMode">sizingMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/slideBoxesInFromEmpty">slideBoxesInFromEmpty</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/swipable">swipable</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/swiper">swiper</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tappable">tappable</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tapper">tapper</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/topMargin">topMargin</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/topPadding">topPadding</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/zIndex">zIndex</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/layout">layout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/longPressed">longPressed</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/swiped">swiped</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tapped">tapped</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="MGLayoutBox Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">MGLayoutBox Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">MGLayoutBox.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/boxes">&nbsp;&nbsp;boxes</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parentBox">&nbsp;&nbsp;parentBox</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/asyncLayout">&nbsp;&nbsp;asyncLayout</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/asyncLayoutOnce">&nbsp;&nbsp;asyncLayoutOnce</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/asyncQueue">&nbsp;&nbsp;asyncQueue</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/margin">&nbsp;&nbsp;margin</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/topMargin">&nbsp;&nbsp;topMargin</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bottomMargin">&nbsp;&nbsp;bottomMargin</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/leftMargin">&nbsp;&nbsp;leftMargin</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rightMargin">&nbsp;&nbsp;rightMargin</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/boxLayoutMode">&nbsp;&nbsp;boxLayoutMode</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sizingMode">&nbsp;&nbsp;sizingMode</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fixedPosition">&nbsp;&nbsp;fixedPosition</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/replacementFor">&nbsp;&nbsp;replacementFor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attachedTo">&nbsp;&nbsp;attachedTo</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/zIndex">&nbsp;&nbsp;zIndex</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/padding">&nbsp;&nbsp;padding</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/topPadding">&nbsp;&nbsp;topPadding</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rightPadding">&nbsp;&nbsp;rightPadding</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bottomPadding">&nbsp;&nbsp;bottomPadding</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/leftPadding">&nbsp;&nbsp;leftPadding</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contentLayoutMode">&nbsp;&nbsp;contentLayoutMode</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/slideBoxesInFromEmpty">&nbsp;&nbsp;slideBoxesInFromEmpty</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/layingOut">&nbsp;&nbsp;layingOut</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/layout">&ndash;&nbsp;layout</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maxWidth">&nbsp;&nbsp;maxWidth</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tapper">&nbsp;&nbsp;tapper</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tappable">&nbsp;&nbsp;tappable</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTap">&nbsp;&nbsp;onTap</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tapped">&ndash;&nbsp;tapped</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/swiper">&nbsp;&nbsp;swiper</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/swipable">&nbsp;&nbsp;swipable</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSwipe">&nbsp;&nbsp;onSwipe</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/swiped">&ndash;&nbsp;swiped</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/longPresser">&nbsp;&nbsp;longPresser</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/longPressable">&nbsp;&nbsp;longPressable</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onLongPress">&nbsp;&nbsp;onLongPress</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/longPressed">&ndash;&nbsp;longPressed</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/asyncLayout" title="asyncLayout"></a>
+	<h3 class="subsubtitle method-title">asyncLayout</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) Block asyncLayout</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/asyncLayoutOnce" title="asyncLayoutOnce"></a>
+	<h3 class="subsubtitle method-title">asyncLayoutOnce</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) Block asyncLayoutOnce</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/asyncQueue" title="asyncQueue"></a>
+	<h3 class="subsubtitle method-title">asyncQueue</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) dispatch_queue_t asyncQueue</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/attachedTo" title="attachedTo"></a>
+	<h3 class="subsubtitle method-title">attachedTo</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) UIView *attachedTo</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bottomMargin" title="bottomMargin"></a>
+	<h3 class="subsubtitle method-title">bottomMargin</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat bottomMargin</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bottomPadding" title="bottomPadding"></a>
+	<h3 class="subsubtitle method-title">bottomPadding</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat bottomPadding</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/boxLayoutMode" title="boxLayoutMode"></a>
+	<h3 class="subsubtitle method-title">boxLayoutMode</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) MGBoxLayoutMode boxLayoutMode</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/boxes" title="boxes"></a>
+	<h3 class="subsubtitle method-title">boxes</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSMutableOrderedSet *boxes</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/contentLayoutMode" title="contentLayoutMode"></a>
+	<h3 class="subsubtitle method-title">contentLayoutMode</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) MGContentLayoutMode contentLayoutMode</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fixedPosition" title="fixedPosition"></a>
+	<h3 class="subsubtitle method-title">fixedPosition</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGPoint fixedPosition</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/layingOut" title="layingOut"></a>
+	<h3 class="subsubtitle method-title">layingOut</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL layingOut</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/leftMargin" title="leftMargin"></a>
+	<h3 class="subsubtitle method-title">leftMargin</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat leftMargin</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/leftPadding" title="leftPadding"></a>
+	<h3 class="subsubtitle method-title">leftPadding</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat leftPadding</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/longPressable" title="longPressable"></a>
+	<h3 class="subsubtitle method-title">longPressable</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL longPressable</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/longPresser" title="longPresser"></a>
+	<h3 class="subsubtitle method-title">longPresser</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UILongPressGestureRecognizer *longPresser</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/margin" title="margin"></a>
+	<h3 class="subsubtitle method-title">margin</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) UIEdgeInsets margin</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maxWidth" title="maxWidth"></a>
+	<h3 class="subsubtitle method-title">maxWidth</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat maxWidth</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onLongPress" title="onLongPress"></a>
+	<h3 class="subsubtitle method-title">onLongPress</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) Block onLongPress</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSwipe" title="onSwipe"></a>
+	<h3 class="subsubtitle method-title">onSwipe</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) Block onSwipe</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTap" title="onTap"></a>
+	<h3 class="subsubtitle method-title">onTap</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) Block onTap</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/padding" title="padding"></a>
+	<h3 class="subsubtitle method-title">padding</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) UIEdgeInsets padding</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parentBox" title="parentBox"></a>
+	<h3 class="subsubtitle method-title">parentBox</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) UIView&lt;MGLayoutBox&gt; *parentBox</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/replacementFor" title="replacementFor"></a>
+	<h3 class="subsubtitle method-title">replacementFor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) UIView *replacementFor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rightMargin" title="rightMargin"></a>
+	<h3 class="subsubtitle method-title">rightMargin</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat rightMargin</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rightPadding" title="rightPadding"></a>
+	<h3 class="subsubtitle method-title">rightPadding</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat rightPadding</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sizingMode" title="sizingMode"></a>
+	<h3 class="subsubtitle method-title">sizingMode</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) MGBoxResizingMode sizingMode</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/slideBoxesInFromEmpty" title="slideBoxesInFromEmpty"></a>
+	<h3 class="subsubtitle method-title">slideBoxesInFromEmpty</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL slideBoxesInFromEmpty</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/swipable" title="swipable"></a>
+	<h3 class="subsubtitle method-title">swipable</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL swipable</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/swiper" title="swiper"></a>
+	<h3 class="subsubtitle method-title">swiper</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UISwipeGestureRecognizer *swiper</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tappable" title="tappable"></a>
+	<h3 class="subsubtitle method-title">tappable</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL tappable</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tapper" title="tapper"></a>
+	<h3 class="subsubtitle method-title">tapper</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UITapGestureRecognizer *tapper</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/topMargin" title="topMargin"></a>
+	<h3 class="subsubtitle method-title">topMargin</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat topMargin</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/topPadding" title="topPadding"></a>
+	<h3 class="subsubtitle method-title">topPadding</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat topPadding</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/zIndex" title="zIndex"></a>
+	<h3 class="subsubtitle method-title">zIndex</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) int zIndex</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/layout" title="layout"></a>
+	<h3 class="subsubtitle method-title">layout</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)layout</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/longPressed" title="longPressed"></a>
+	<h3 class="subsubtitle method-title">longPressed</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)longPressed</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/swiped" title="swiped"></a>
+	<h3 class="subsubtitle method-title">swiped</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)swiped</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tapped" title="tapped"></a>
+	<h3 class="subsubtitle method-title">tapped</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)tapped</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Matt Greenfield. All rights reserved. (Last updated: 2013-05-25)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.6 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,743 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>FUIAlertView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.6 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">FlatUIKit 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Grouper and Jack Flintermann</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">FUIAlertView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/alertContainer">&nbsp;&nbsp;&nbsp;&nbsp;alertContainer</option>
+	
+	<option value="//api/name/animationDuration">&nbsp;&nbsp;&nbsp;&nbsp;animationDuration</option>
+	
+	<option value="//api/name/backgroundOverlay">&nbsp;&nbsp;&nbsp;&nbsp;backgroundOverlay</option>
+	
+	<option value="//api/name/buttonSpacing">&nbsp;&nbsp;&nbsp;&nbsp;buttonSpacing</option>
+	
+	<option value="//api/name/buttons">&nbsp;&nbsp;&nbsp;&nbsp;buttons</option>
+	
+	<option value="//api/name/cancelButtonIndex">&nbsp;&nbsp;&nbsp;&nbsp;cancelButtonIndex</option>
+	
+	<option value="//api/name/defaultButtonColor">&nbsp;&nbsp;&nbsp;&nbsp;defaultButtonColor</option>
+	
+	<option value="//api/name/defaultButtonFont">&nbsp;&nbsp;&nbsp;&nbsp;defaultButtonFont</option>
+	
+	<option value="//api/name/defaultButtonShadowColor">&nbsp;&nbsp;&nbsp;&nbsp;defaultButtonShadowColor</option>
+	
+	<option value="//api/name/defaultButtonTitleColor">&nbsp;&nbsp;&nbsp;&nbsp;defaultButtonTitleColor</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/message">&nbsp;&nbsp;&nbsp;&nbsp;message</option>
+	
+	<option value="//api/name/messageLabel">&nbsp;&nbsp;&nbsp;&nbsp;messageLabel</option>
+	
+	<option value="//api/name/numberOfButtons">&nbsp;&nbsp;&nbsp;&nbsp;numberOfButtons</option>
+	
+	<option value="//api/name/title">&nbsp;&nbsp;&nbsp;&nbsp;title</option>
+	
+	<option value="//api/name/titleLabel">&nbsp;&nbsp;&nbsp;&nbsp;titleLabel</option>
+	
+	<option value="//api/name/visible">&nbsp;&nbsp;&nbsp;&nbsp;visible</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addButtonWithTitle:">&nbsp;&nbsp;&nbsp;&nbsp;- addButtonWithTitle:</option>
+	
+	<option value="//api/name/buttonTitleAtIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- buttonTitleAtIndex:</option>
+	
+	<option value="//api/name/dismissWithClickedButtonIndex:animated:">&nbsp;&nbsp;&nbsp;&nbsp;- dismissWithClickedButtonIndex:animated:</option>
+	
+	<option value="//api/name/initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:</option>
+	
+	<option value="//api/name/show">&nbsp;&nbsp;&nbsp;&nbsp;- show</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/alertContainer">alertContainer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animationDuration">animationDuration</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/backgroundOverlay">backgroundOverlay</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buttonSpacing">buttonSpacing</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buttons">buttons</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cancelButtonIndex">cancelButtonIndex</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultButtonColor">defaultButtonColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultButtonFont">defaultButtonFont</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultButtonShadowColor">defaultButtonShadowColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultButtonTitleColor">defaultButtonTitleColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/message">message</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageLabel">messageLabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/numberOfButtons">numberOfButtons</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/title">title</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/titleLabel">titleLabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/visible">visible</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addButtonWithTitle:">addButtonWithTitle:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buttonTitleAtIndex:">buttonTitleAtIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dismissWithClickedButtonIndex:animated:">dismissWithClickedButtonIndex:animated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:">initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/show">show</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="FUIAlertView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">FUIAlertView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIView</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">FUIAlertView.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:">&ndash;&nbsp;initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/title">&nbsp;&nbsp;title</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/message">&nbsp;&nbsp;message</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addButtonWithTitle:">&ndash;&nbsp;addButtonWithTitle:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buttonTitleAtIndex:">&ndash;&nbsp;buttonTitleAtIndex:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/numberOfButtons">&nbsp;&nbsp;numberOfButtons</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cancelButtonIndex">&nbsp;&nbsp;cancelButtonIndex</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/visible">&nbsp;&nbsp;visible</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/show">&ndash;&nbsp;show</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dismissWithClickedButtonIndex:animated:">&ndash;&nbsp;dismissWithClickedButtonIndex:animated:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buttons">&nbsp;&nbsp;buttons</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/titleLabel">&nbsp;&nbsp;titleLabel</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messageLabel">&nbsp;&nbsp;messageLabel</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/backgroundOverlay">&nbsp;&nbsp;backgroundOverlay</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/alertContainer">&nbsp;&nbsp;alertContainer</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buttonSpacing">&nbsp;&nbsp;buttonSpacing</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animationDuration">&nbsp;&nbsp;animationDuration</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultButtonFont">&nbsp;&nbsp;defaultButtonFont</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultButtonTitleColor">&nbsp;&nbsp;defaultButtonTitleColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultButtonColor">&nbsp;&nbsp;defaultButtonColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultButtonShadowColor">&nbsp;&nbsp;defaultButtonShadowColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/alertContainer" title="alertContainer"></a>
+	<h3 class="subsubtitle method-title">alertContainer</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak, readonly) UIView *alertContainer</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animationDuration" title="animationDuration"></a>
+	<h3 class="subsubtitle method-title">animationDuration</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) CGFloat animationDuration</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/backgroundOverlay" title="backgroundOverlay"></a>
+	<h3 class="subsubtitle method-title">backgroundOverlay</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak, readonly) UIView *backgroundOverlay</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buttonSpacing" title="buttonSpacing"></a>
+	<h3 class="subsubtitle method-title">buttonSpacing</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) CGFloat buttonSpacing</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buttons" title="buttons"></a>
+	<h3 class="subsubtitle method-title">buttons</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) NSMutableArray *buttons</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cancelButtonIndex" title="cancelButtonIndex"></a>
+	<h3 class="subsubtitle method-title">cancelButtonIndex</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) NSInteger cancelButtonIndex</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultButtonColor" title="defaultButtonColor"></a>
+	<h3 class="subsubtitle method-title">defaultButtonColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *defaultButtonColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultButtonFont" title="defaultButtonFont"></a>
+	<h3 class="subsubtitle method-title">defaultButtonFont</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIFont *defaultButtonFont</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultButtonShadowColor" title="defaultButtonShadowColor"></a>
+	<h3 class="subsubtitle method-title">defaultButtonShadowColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *defaultButtonShadowColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultButtonTitleColor" title="defaultButtonTitleColor"></a>
+	<h3 class="subsubtitle method-title">defaultButtonTitleColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *defaultButtonTitleColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;FUIAlertViewDelegate&gt; delegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/message" title="message"></a>
+	<h3 class="subsubtitle method-title">message</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *message</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/messageLabel" title="messageLabel"></a>
+	<h3 class="subsubtitle method-title">messageLabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak, readonly) UILabel *messageLabel</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/numberOfButtons" title="numberOfButtons"></a>
+	<h3 class="subsubtitle method-title">numberOfButtons</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSInteger numberOfButtons</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/title" title="title"></a>
+	<h3 class="subsubtitle method-title">title</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *title</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/titleLabel" title="titleLabel"></a>
+	<h3 class="subsubtitle method-title">titleLabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak, readonly) UILabel *titleLabel</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/visible" title="visible"></a>
+	<h3 class="subsubtitle method-title">visible</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, getter=isVisible) BOOL visible</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addButtonWithTitle:" title="addButtonWithTitle:"></a>
+	<h3 class="subsubtitle method-title">addButtonWithTitle:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)addButtonWithTitle:(NSString *)<em>title</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buttonTitleAtIndex:" title="buttonTitleAtIndex:"></a>
+	<h3 class="subsubtitle method-title">buttonTitleAtIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)buttonTitleAtIndex:(NSInteger)<em>buttonIndex</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dismissWithClickedButtonIndex:animated:" title="dismissWithClickedButtonIndex:animated:"></a>
+	<h3 class="subsubtitle method-title">dismissWithClickedButtonIndex:animated:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)dismissWithClickedButtonIndex:(NSInteger)<em>buttonIndex</em> animated:(BOOL)<em>animated</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:" title="initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:"></a>
+	<h3 class="subsubtitle method-title">initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithTitle:(NSString *)<em>title</em> message:(NSString *)<em>message</em> delegate:(id&lt;FUIAlertViewDelegate&gt;)<em>delegate</em> cancelButtonTitle:(NSString *)<em>cancelButtonTitle</em> otherButtonTitles:(NSString *)<em>otherButtonTitles</em>, <em>...</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/show" title="show"></a>
+	<h3 class="subsubtitle method-title">show</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)show</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Grouper and Jack Flintermann. All rights reserved. (Last updated: 2013-05-25)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.6 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

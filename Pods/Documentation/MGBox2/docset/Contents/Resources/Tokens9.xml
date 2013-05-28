@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MGTableBox.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MGTableBox</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGTableBox.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGTableBox/setTopLines:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGTableBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableOrderedSet *topLines</Declaration>
+			
+			
+			<Anchor>//api/name/topLines</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGTableBox/topLines</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGTableBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableOrderedSet *topLines</Declaration>
+			
+			
+			<Anchor>//api/name/topLines</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGTableBox/setMiddleLines:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGTableBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableOrderedSet *middleLines</Declaration>
+			
+			
+			<Anchor>//api/name/middleLines</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGTableBox/middleLines</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGTableBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableOrderedSet *middleLines</Declaration>
+			
+			
+			<Anchor>//api/name/middleLines</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGTableBox/setBottomLines:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGTableBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableOrderedSet *bottomLines</Declaration>
+			
+			
+			<Anchor>//api/name/bottomLines</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGTableBox/bottomLines</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGTableBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableOrderedSet *bottomLines</Declaration>
+			
+			
+			<Anchor>//api/name/bottomLines</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGTableBox/allLines</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGTableBox.h</DeclaredIn>			
+			
+			<Declaration>- (NSOrderedSet *)allLines</Declaration>
+			
+			
+			<Anchor>//api/name/allLines</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

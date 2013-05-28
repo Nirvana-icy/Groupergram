@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/FUIButton.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/FUIButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIButton.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIButton/setButtonColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *buttonColor</Declaration>
+			
+			
+			<Anchor>//api/name/buttonColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIButton/buttonColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *buttonColor</Declaration>
+			
+			
+			<Anchor>//api/name/buttonColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIButton/setShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIButton/shadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) UIColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIButton/setShadowHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat shadowHeight</Declaration>
+			
+			
+			<Anchor>//api/name/shadowHeight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIButton/shadowHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat shadowHeight</Declaration>
+			
+			
+			<Anchor>//api/name/shadowHeight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIButton/setCornerRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cornerRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIButton/cornerRadius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat cornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cornerRadius</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,7 @@
+platform :ios, '6.0'
+pod 'AFNetworking', '~> 1.2.0'
+pod 'FlatUIKit', '~> 1.0'
+pod 'GMGridView', '~> 1.1.1'
+pod 'SDWebImage', '~> 3.2'
+pod 'SDURLCache', '~> 1.2'
+pod 'UAModalPanel', :git => 'https://github.com/creativemess/UAModalPanel.git'

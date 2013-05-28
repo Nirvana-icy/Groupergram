@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSObject+MGEvents.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSObject(MGEvents)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+MGEvents.h</DeclaredIn>
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(MGEvents)/setMGEventHandlers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *MGEventHandlers</Declaration>
+			
+			
+			<Anchor>//api/name/MGEventHandlers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/NSObject(MGEvents)/MGEventHandlers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *MGEventHandlers</Declaration>
+			
+			
+			<Anchor>//api/name/MGEventHandlers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(MGEvents)/on:do:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>- (void)on:(NSString *)eventName do:(Block)handler</Declaration>
+			
+			
+			<Anchor>//api/name/on:do:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(MGEvents)/on:doOnce:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>- (void)on:(NSString *)eventName doOnce:(Block)handler</Declaration>
+			
+			
+			<Anchor>//api/name/on:doOnce:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(MGEvents)/trigger:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>- (void)trigger:(NSString *)eventName</Declaration>
+			
+			
+			<Anchor>//api/name/trigger:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(MGEvents)/setMGObservers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *MGObservers</Declaration>
+			
+			
+			<Anchor>//api/name/MGObservers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/NSObject(MGEvents)/MGObservers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *MGObservers</Declaration>
+			
+			
+			<Anchor>//api/name/MGObservers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSObject(MGEvents)/onChangeOf:do:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>- (void)onChangeOf:(NSString *)keypath do:(Block)block</Declaration>
+			
+			
+			<Anchor>//api/name/onChangeOf:do:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

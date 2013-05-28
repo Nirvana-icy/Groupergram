@@ -1,0 +1,583 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>MGBox2 2.0.0 Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.6 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">MGBox2 2.0.0 </a></h1>
+				<a id="developerHome" href="index.html">Matt Greenfield</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">MGBox2 2.0.0 Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">MGBox2 2.0.0 Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<h1>MGBox2 &ndash; Simple, quick iOS tables, grids, and more</h1>
+
+<p>Designed for rapid table and grid creation with minimal code, easy customisation, attractive default styling, using modern blocks based design patterns, and without need for fidgety tweaking or awkward design patterns.</p>
+
+<p>Includes blocks based gesture recognisers, observers, control events, and custom events.</p>
+
+<p><a href="Classes/MGBox.html"><code>MGBox</code></a>, <a href="Classes/MGScrollView.html"><code>MGScrollView</code></a>, and <a href="Classes/MGButton.html"><code>MGButton</code></a> can also be used as generic <code>UIView</code> wrappers to get the benefits of view padding, margins, and zIndex, amongst others.</p>
+
+<h2>Layout Features</h2>
+
+<ul>
+<li>Table layouts (similar to <code>UITableView</code>, but less fuss)</li>
+<li>Grid layouts (similar to <code>UICollectionView</code>, but less fuss)</li>
+<li>Table rows automatically layout <code>NSStrings</code>, <code>UIImages</code>, and multiline text</li>
+<li>Animated adding/removing/reordering rows, items, sections, etc</li>
+<li>Margins, Padding, zIndex, Fixed Positioning, and more</li>
+<li>Optional asynchronous blocks based layout</li>
+<li>Automatically keeps input fields above the keyboard</li>
+<li>Optional scroll view box edge snapping</li>
+</ul>
+
+
+<h2>Code Convenience Features</h2>
+
+<ul>
+<li>Blocks based tap, swipe, and hold gesture recognisers</li>
+<li>Blocks based custom event observing and triggering</li>
+<li>Blocks based UIControl event handlers</li>
+<li>Blocks based keypath observers</li>
+<li>UIView easy frame accessors</li>
+</ul>
+
+
+<h2>Example Screenshots</h2>
+
+<p>Complex tables, sections, and grids created with simple code.</p>
+
+<h3>From the Demo App</h3>
+
+<p>!<a href="http://cloud.github.com/downloads/sobri909/MGBox2/DemoApp1.png">Demo App Screenshot 1</a></p>
+
+<h3>From <a href="http://ifalarm.com">IfAlarm</a></h3>
+
+<p>Created with the convenience <a href="Classes/MGBox.html#//api/name/screenshot:"><code>[MGBox screenshot:]</code></a> method.</p>
+
+<p>!<a href="http://cloud.github.com/downloads/sobri909/MGBox2/IfAlarm1.png">IfAlarm Screenshot 1</a>
+!<a href="http://cloud.github.com/downloads/sobri909/MGBox2/IfAlarm2.png">IfAlarm Screenshot 2</a></p>
+
+<h3>From <a href="http://flowi.es">Flowies</a></h3>
+
+<p>!<a href="http://cloud.github.com/downloads/sobri909/MGBox2/Flowies1.png">Flowies Screenshot 1</a></p>
+
+<h2>Setup</h2>
+
+<p>Add the <a href="Classes/MGBox.html"><code>MGBox</code></a> folder to your project. (ARC and Xcode 4.5 are required)</p>
+
+<p>Have a poke around the Demo App to see some of the features in use.</p>
+
+<h2>Example Usage</h2>
+
+<h3>Building a Table (Similar to UITableView)</h3>
+
+<h4>Create a Scroll View:</h4>
+
+<p><code>objc
+MGScrollView *scroller = [MGScrollView scrollerWithSize:self.bounds.size];
+[self.view addSubview:scroller];
+</code></p>
+
+<h4>Add a Table Section:</h4>
+
+<p><code>
+MGTableBoxStyled *section = MGTableBoxStyled.box;
+[scroller.boxes addObject:section];
+</code></p>
+
+<h4>Add Some Rows:</h4>
+
+<p>```objc
+// a default row size
+CGSize rowSize = (CGSize){304, 44};</p>
+
+<p>// a header row
+<a href="Classes/MGLine.html">MGLine</a> *header = [MGLine lineWithLeft:@&ldquo;My First Table&rdquo; right:nil size:rowSize];
+header.leftPadding = header.rightPadding = 16;
+[section.topLines addObject:header];</p>
+
+<p>// a string on the left and a horse on the right
+<a href="Classes/MGLine.html">MGLine</a> *row = [MGLine lineWithLeft:@&ldquo;Left text&rdquo; right:[UIImage imageNamed:@&ldquo;horse&rdquo;] size:rowSize];
+row.leftPadding = row.rightPadding = 16;
+[section.topLines addObject:row];
+```</p>
+
+<h4>Animate and Scroll the Section Into View</h4>
+
+<p><code>objc
+[scroller layoutWithSpeed:0.3 completion:nil];
+[scroller scrollToView:section withMargin:8];
+</code></p>
+
+<h3>Build a Grid (Similar to UICollectionView or CSS&rsquo;s float:left)</h3>
+
+<h4>Create the Grid Container:</h4>
+
+<p><code>objc
+MGBox *grid = [MGBox boxWithSize:self.bounds.size];
+grid.contentLayoutMode = MGLayoutGridStyle;
+[scroller.boxes addObject:grid];
+</code></p>
+
+<h4>Add Some Views to the Grid:</h4>
+
+<p>```objc
+// add ten 100x100 boxes, with 10pt top and left margins
+for (int i = 0; i &lt; 10; i++) {</p>
+
+<pre><code>MGBox *box = [MGBox boxWithSize:(CGSize){100, 100}];
+box.leftMargin = box.topMargin = 10;
+[grid.boxes addObject:box];
+</code></pre>
+
+<p>}
+```</p>
+
+<h4>Animate and Scroll the Grid Into View:</h4>
+
+<p><code>objc
+[grid layoutWithSpeed:0.3 completion:nil];
+[scroller layoutWithSpeed:0.3 completion:nil];
+[scroller scrollToView:grid withMargin:10];
+</code></p>
+
+<h2>Animated and Asynchronous Layout</h2>
+
+<p>All <code>MGBoxes</code>, <code>MGScrollViews</code>, and subclasses support two layout methods (<code>layout</code>, <code>layoutWithSpeed:completion:</code>) and two async layout block properties (<code>asyncLayout</code> and <code>asyncLayoutOnce</code>).</p>
+
+<h3>[box layout]</h3>
+
+<p>Layout the box&rsquo;s children (and all descendents) without animation.</p>
+
+<h3>[box layoutWithSpeed:completion:]</h3>
+
+<p>Same as above, but with child boxes animated between previous and new computed positions, fading new boxes in, and fading removed boxes out. Child boxes will have their unanimated <code>layout</code> method called. If you want a child box to also animate the positioning of its children in the same drawing pass, call its <code>layoutWithSpeed:completion:</code> method first.</p>
+
+<p><code>objc
+[grid layoutWithSpeed:0.3 completion:nil];
+[scroller layoutWithSpeed:0.3 completion:nil];
+</code></p>
+
+<h3>box.asyncLayout and box.asyncLayoutOnce</h3>
+
+<p><code>asyncLayout</code> blocks are performed on every call to <code>layout</code> or <code>layoutWithSpeed:completion:</code>.</p>
+
+<p>```objc
+box.asyncLayout = ^{</p>
+
+<pre><code>// do slow things on a background thread
+NSLog(@"things things things");
+
+// update the box presentation back in UI land
+dispatch_async(dispatch_get_main_queue(), ^{
+    NSLog(@"that took a while!");
+});    
+</code></pre>
+
+<p>};
+```</p>
+
+<p><code>asyncLayoutOnce</code> blocks are performed only on the first call to <code>layout</code> or <code>layoutWithSpeed:completion:</code>, thus are useful for initial table or grid setup, when things like loading data over the network might be a performance factor.</p>
+
+<p>```objc
+box.asyncLayoutOnce = ^{</p>
+
+<pre><code>// do slow things once, on a background thread
+NSLog(@"things things things");
+
+// update the box presentation back in UI land
+dispatch_async(dispatch_get_main_queue(), ^{
+    NSLog(@"aaand we're done");
+});
+</code></pre>
+
+<p>};
+```</p>
+
+<p>Assign a specific queue to the <code>asyncQueue</code> property if you want to use a different priority or perhaps perform a bunch of expensive processes in serial.</p>
+
+<p>```objc
+dispatch_queue_t queue = dispatch_queue_create(&ldquo;SerialQueue&rdquo;, DISPATCH_QUEUE_SERIAL);
+for (<a href="Classes/MGBox.html">MGBox</a> *box in scroller.boxes) {</p>
+
+<pre><code>box.asyncQueue = queue;
+</code></pre>
+
+<p>}
+```</p>
+
+<h2>MGBox&rsquo;s CSS-like Positioning and Stacking</h2>
+
+<h3>Margins and Padding</h3>
+
+<p>When <code>layout</code> or <code>layoutWithSpeed:completion:</code> is called, each descendent box in the tree is positioned according to the container box&rsquo;s <code>contentLayoutMode</code> (ie table or grid), taking into account the container&rsquo;s padding and the child&rsquo;s margins.</p>
+
+<p>Getters and setters are provided for:</p>
+
+<ul>
+<li><code>padding</code> (<code>UIEdgeInsets</code>)</li>
+<li><code>margin</code> (<code>UIEdgeInsets</code>)</li>
+<li><code>leftPadding</code>, <code>topPadding</code>, <code>rightPadding</code>, <code>bottomPadding</code></li>
+<li><code>leftMargin</code>, <code>topMargin</code>, <code>rightMargin</code>, <code>bottomMargin</code></li>
+</ul>
+
+
+<h3>Z-Index</h3>
+
+<p>The same as in CSS. The <code>zIndex</code> property of <code>MGBox</code> affects the stacking order of boxes during layout.</p>
+
+<h3>Fixed Positioning</h3>
+
+<p>Set a box&rsquo;s <code>fixedPosition</code> property to a desired <code>CGPoint</code> to force it to stay in a fixed position when its containing <code>MGScrollView</code> scrolls.</p>
+
+<h3>Attached Positioning</h3>
+
+<p>Assign another view to a box&rsquo;s <code>attachedTo</code> property to force the box to position at the same origin. Optionally adjust the offset by fiddling with the box&rsquo;s top and left margins.</p>
+
+<h2>Blocks Based Observers, Custom Events, Control Events, and Gestures</h2>
+
+<h3>Tap, Swipe, and Hold</h3>
+
+<p>Simply assign a block to the appropriate property. You can toggle them on and off with <code>tappable</code>, <code>swipable</code>, <code>longPressable</code> booleans. Access the gesture recognisers directly through the <code>tapper</code>, <code>swiper</code>, and <code>longPresser</code> properties.</p>
+
+<p>```objc
+box.onTap = ^{</p>
+
+<pre><code>NSLog(@"you tapped my box!");    
+</code></pre>
+
+<p>};
+box.onSwipe = ^{</p>
+
+<pre><code>NSLog(@"you swiped, m'lord?");
+</code></pre>
+
+<p>};
+box.onLongPress = ^{</p>
+
+<pre><code>NSLog(@"you can let go now.");
+</code></pre>
+
+<p>};
+```</p>
+
+<h3>Blocks Based Observers</h3>
+
+<p><code>NSObject+MGEvents</code> provides blocks based observing for all objects' keypaths. No more worrying about crashes caused by dangling observers after dealloc.</p>
+
+<p>```objc
+[earth onChangeOf:@&ldquo;isFlat&rdquo; do:^{</p>
+
+<pre><code>if (earth.isFlat) {
+    NSLog(@"the earth is now flat");
+} else {
+    NSLog(@"the earth is no longer flat.");
+}
+</code></pre>
+
+<p>}];
+```</p>
+
+<h3>Blocks Based Custom Events</h3>
+
+<p><code>NSObject+MGEvents</code> provides the ability to define custom events, assign block handlers, and trigger the events when you see fit.</p>
+
+<p>```objc
+[earth on:@&ldquo;ChangingShape&rdquo; do:^{</p>
+
+<pre><code>NSLog(@"the earth is changing shape");
+</code></pre>
+
+<p>}];</p>
+
+<p>[earth trigger:@&ldquo;ChangingShape&rdquo;];
+```</p>
+
+<h3>Blocks Based UIControl Event Handlers</h3>
+
+<p><code>UIControl+MGEvents</code> provides a nice easy <code>onControlEvent:do:</code> method for all UIControls, which frees you from the muck of adding targets, selectors, etc.</p>
+
+<p>```objc
+[button onControlEvent:UIControlEventTouchUpInside do:^{</p>
+
+<pre><code>NSLog(@"i've been touched up inside. golly.");
+</code></pre>
+
+<p>}];
+```</p>
+
+<h2>UIView+MGEasyFrame Category</h2>
+
+<p>Fussing about with view frames can be tedious, especially when all you want to do is change a width or height, or know where the bottom right corner is.</p>
+
+<p><code>UIView+MGEasyFrame</code> provides getters and setters for:</p>
+
+<ul>
+<li><code>size</code>, <code>width</code>, <code>height</code></li>
+<li><code>origin</code>, <code>x</code>, <code>y</code></li>
+</ul>
+
+
+<p>And getters for:</p>
+
+<ul>
+<li><code>topLeft</code>, <code>topRight</code>, <code>bottomRight</code>, <code>bottomLeft</code></li>
+</ul>
+
+
+<h2>Subclassing Tips</h2>
+
+<p>While <a href="Classes/MGLine.html"><code>MGLine</code></a> and <a href="Classes/MGScrollView.html"><code>MGScrollView</code></a> rarely need subclassing, it&rsquo;s often useful to subclass <a href="Classes/MGBox.html"><code>MGBox</code></a> when building things like items in a grid container, or for any generic views that you might want to layout using <a href="Classes/MGBox.html"><code>MGBox</code></a> style layout rules (eg margins, zIndex, etc).</p>
+
+<p>Also, if you want to create a custom table section style, you&rsquo;ll want to subclass <a href="Classes/MGTableBox.html"><code>MGTableBox</code></a>, looking at <a href="Classes/MGTableBoxStyled.html"><code>MGTableBoxStyled</code></a> as an example.</p>
+
+<p>All <code>MGBoxes</code> have a convenience <code>setup</code> method which is called from both <code>initWithFrame:</code> and <code>initWithCoder:</code>, thus making it a good location to apply any custom styling such as shadows, background colours, corner radiuses, etc. You should probably call <code>[super setup]</code> in here.</p>
+
+<p>Additionally you might want to override the standard <code>layout</code> method, if you want to perform some tasks before or after layout. You should almost certainly call <code>[super layout]</code> in your custom layout method.</p>
+
+<p>If your custom <a href="Classes/MGBox.html"><code>MGBox</code></a> has a shadow, it&rsquo;s useful to adjust its <code>shadowPath</code> in the <code>layout</code> method, after <code>[super layout]</code>, because shadows without shadowPaths make iOS cry.</p>
+
+<h2>The Difference Between &lsquo;boxes&rsquo; and &lsquo;subviews&rsquo;</h2>
+
+<p>This distinction can present an occasional trap. When <code>layout</code> or <code>layoutWithSpeed:completion:</code> are called, the layout engine only applies <a href="Classes/MGBox.html"><code>MGBox</code></a> layout rules to boxes in the container&rsquo;s <code>boxes</code> set. All other views in <code>subviews</code> will simply be ignored, with no <a href="Classes/MGBox.html"><code>MGBox</code></a> style layout rules applied (their <code>zIndex</code> will be treated as <code>0</code>).</p>
+
+<p>All <code>MGBoxes</code> that are subviews but are not in <code>boxes</code> will be removed during layout. Any <code>MGBoxes</code> in <code>boxes</code> that are not yet subviews will be added as subviews.</p>
+
+<p>So as a general rule of thumb: Put <code>MGBoxes</code> into <code>boxes</code>, everything else into <code>subviews</code>, then call one of the <code>layout</code> methods when you&rsquo;re done. As long as you stick to that, you won&rsquo;t get tripped up.</p>
+
+<h2><a href="Classes/MGLine.html">MGLine</a></h2>
+
+<p><a href="Classes/MGLine.html"><code>MGLine</code></a> is essentially a table row, although it can also be used more generically if it takes your fancy.</p>
+
+<p>Although <a href="Classes/MGLine.html"><code>MGLine</code></a> is an <a href="Classes/MGBox.html"><code>MGBox</code></a> subclass, it instead sources its content views from <code>leftItems</code>, <code>middleItems</code>, and <code>rightItems</code>.</p>
+
+<p>The items arrays can contain <code>NSStrings</code>, <code>UIImages</code>, or any arbitrary <code>UIViews</code> you want to add to the line (eg switches, sliders, buttons, etc).</p>
+
+<h3><a href="Classes/MGLine.html">MGLine</a> Multiline Text</h3>
+
+<p><a href="Classes/MGLine.html"><code>MGLine</code></a> can automatically wrap long strings, as well as mix and match them with other items in the same line. For example you might want multiline text on the left and an image on the right, or vice versa.</p>
+
+<p>```objc
+<a href="Classes/MGLine.html">MGLine</a> *line1 = [MGLine lineWithMultilineLeft:@&ldquo;a long string on the left&rdquo;</p>
+
+<pre><code>right:[UIImage imageNamed:@"Sharonda"] width:320 minHeight:40];
+</code></pre>
+
+<p><a href="Classes/MGLine.html">MGLine</a> *line2 = [<a href="Classes/MGLine.html">MGLine</a> lineWithleft:[UIImage imageNamed:@&ldquo;Felicia&rdquo;</p>
+
+<pre><code>multilineRight:@"a long string on the right" width:320 minHeight:40];
+</code></pre>
+
+<p>```</p>
+
+<p>Any string containing a newline char will be treated as multiline, so as a shorthand you can also do something like this:</p>
+
+<p><code>objc
+MGLine *line = [MGLine lineWithLeft:@"a long string\n" right:nil];
+</code></p>
+
+<h3><a href="Classes/MGLine.html">MGLine</a> Side Precedence</h3>
+
+<p>The <code>sidePrecedence</code> property decides whether content on the left, right, or middle takes precedence when space runs out. <code>UILabels</code> will be shortened to fit. <code>UIImages</code> and <code>UIViews</code> will be removed from the centre outwards if there&rsquo;s not enough room to fit them in.</p>
+
+<h3><a href="Classes/MGLine.html">MGLine</a> Fonts and Text Alignment</h3>
+
+<p>The <code>font</code> and <code>rightFont</code> properties define what fonts are used to wrap <code>NSStrings</code>. The <code>textColor</code> property rotates the canvas a random number of degrees. I&rsquo;m not sure what <code>textShadowColor</code> does.</p>
+
+<p>The properties <code>leftItemsTextAlignment</code>, <code>middleItemsTextAlignment</code>, <code>rightItemsTextAlignment</code> are passed on to the labels created for your strings.</p>
+
+<h3><a href="Classes/MGLine.html">MGLine</a> Item Padding</h3>
+
+<p>The <code>itemPadding</code> property defines how much padding to apply to the left and right of each item. This is added to the <code>leftMargin</code> and <code>rightMargin</code> values of any <code>MGBoxes</code> you might have added as line items.</p>
+
+<h3><a href="Classes/MGLine.html">MGLine</a> Min and Max Height</h3>
+
+<p>By default the <code>minHeight</code> and <code>maxHeight</code> properties are both zero, thus causing the line&rsquo;s size to be unchanged by the size of its contents. But if either of them is non-zero, the line height will adjust to fit the highest content item, within the given bounds.</p>
+
+<p>A <code>maxHeight</code> of zero when <code>minHeight</code> is non-zero allows the line to increase in height without restriction.</p>
+
+<p><code>objc
+MGLine *line = [MGLine lineWithLeft:@"a really long string\n" right:nil];
+line.minHeight = 40; // the line will be at least 40 high
+line.maxHeight = 0; // the line will grow as high as it needs to accommodate the string
+</code></p>
+
+<h2><a href="Classes/MGTableBox.html">MGTableBox</a>, <a href="Classes/MGTableBoxStyled.html">MGTableBoxStyled</a></h2>
+
+<p><a href="Classes/MGTableBox.html"><code>MGTableBox</code></a> is a thin wrapper of <a href="Classes/MGBox.html"><code>MGBox</code></a> which you can mostly pretend doesn&rsquo;t exist, unless you want to create a custom table section style. In which case you will want to subclass it.</p>
+
+<p><a href="Classes/MGTableBoxStyled.html"><code>MGTableBoxStyled</code></a> is a styled subclass of <a href="Classes/MGTableBox.html"><code>MGTableBox</code></a>, which provides the default table style you see in the screenshots and demo app.</p>
+
+<p>When using these classes for table sections, add your rows (eg <a href="Classes/MGLine.html"><code>MGLine</code></a> objects) to their <code>topLines</code>, <code>middleLines</code>, and <code>bottomLines</code> arrays (instead of the standard <code>boxes</code> set).</p>
+
+<h2><a href="Classes/MGScrollView.html">MGScrollView</a></h2>
+
+<h3><a href="Classes/MGScrollView.html">MGScrollView</a> Input Fields Above Keyboard</h3>
+
+<p><code>MGScrollViews</code> will by default automatically scroll to keep any selected input field visible when the keyboard appears. You can adjust the amount of margin with the <code>keyboardMargin</code> property, and disable the feature with the <code>keepFirstResponderAboveKeyboard</code> property.</p>
+
+<h3><a href="Classes/MGScrollView.html">MGScrollView</a> Box Edge Snapping</h3>
+
+<p>You might like this for your project, or it might annoy you. It&rsquo;s one of those things.</p>
+
+<h3>When You Make the Scroll View:</h3>
+
+<p><code>objc
+scroller.delegate = self;
+</code></p>
+
+<h3>In Your ViewController.h:</h3>
+
+<p>Own up to being a <code>UIScrollViewDelegate</code></p>
+
+<p><code>objc
+@interface ViewController : UIViewController &lt;UIScollViewDelegate&gt;
+</code></p>
+
+<h3>In Your ViewController.m:</h3>
+
+<p>```objc
+&ndash; (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {</p>
+
+<pre><code>[(id)scrollView snapToNearestBox];
+</code></pre>
+
+<p>}</p>
+
+<ul>
+<li>(void)scrollViewDidEndDragging:(UIScrollView *)scrollView
+                willDecelerate:(BOOL)decelerate {
+  if (!decelerate) {
+      [(id)scrollView snapToNearestBox];
+  }
+}
+```</li>
+</ul>
+
+
+<h2>Take a Screenshot of Your Box (with OS X screenshot style drop shadow)</h2>
+
+<p><code>objc
+UIImage *screenshot = [box screenshot:0]; // 0 = device scale, 1 = old school, 2 = retina
+</code></p>
+
+<h2>License</h2>
+
+<p>No need to give credit or mention <a href="Classes/MGBox.html"><code>MGBox</code></a> in your app. No one reads those things anyway. The license is otherwise BSD standard.</p>
+
+<p>If you want to give back, you could always <a href="http://bigpaua.com">buy one of my apps</a> ;)</p>
+
+<h2>More</h2>
+
+<p>There&rsquo;s a few more undocumented features, if you&rsquo;re the type to go poking around the source. Enjoy!</p>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/MGBlockWrapper.html">MGBlockWrapper</a></li>
+							
+							<li><a href="Classes/MGBox.html">MGBox</a></li>
+							
+							<li><a href="Classes/MGButton.html">MGButton</a></li>
+							
+							<li><a href="Classes/MGLayoutManager.html">MGLayoutManager</a></li>
+							
+							<li><a href="Classes/MGLine.html">MGLine</a></li>
+							
+							<li><a href="Classes/MGLineStyled.html">MGLineStyled</a></li>
+							
+							<li><a href="Classes/MGMushParser.html">MGMushParser</a></li>
+							
+							<li><a href="Classes/MGScrollView.html">MGScrollView</a></li>
+							
+							<li><a href="Classes/MGTableBox.html">MGTableBox</a></li>
+							
+							<li><a href="Classes/MGTableBoxStyled.html">MGTableBoxStyled</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						<h2 class="index-title">Protocol References</h2>
+						<ul>
+							
+							<li><a href="Protocols/MGLayoutBox.html">MGLayoutBox</a></li>
+							
+						</ul>
+						
+						
+						<h2 class="index-title">Category References</h2>
+						<ul>
+							
+							<li><a href="Categories/NSAttributedString+MGTrim.html">NSAttributedString(MGTrim)</a></li>
+							
+							<li><a href="Categories/NSObject+MGEvents.html">NSObject(MGEvents)</a></li>
+							
+							<li><a href="Categories/UIColor+MGExpanded.html">UIColor(MGExpanded)</a></li>
+							
+							<li><a href="Categories/UIColor+Undocumented_Expanded.html">UIColor(Undocumented_Expanded)</a></li>
+							
+							<li><a href="Categories/UIControl+MGEvents.html">UIControl(MGEvents)</a></li>
+							
+							<li><a href="Categories/UIResponder+FirstResponder.html">UIResponder(FirstResponder)</a></li>
+							
+							<li><a href="Categories/UIView+MGEasyFrame.html">UIView(MGEasyFrame)</a></li>
+							
+						</ul>
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Matt Greenfield. All rights reserved. (Last updated: 2013-05-25)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.6 (build 789)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIFont+FlatUI.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIFont(FlatUI)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+FlatUI.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIFont(FlatUI)/flatFontOfSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIFont *)flatFontOfSize:(CGFloat)size</Declaration>
+			
+			
+			<Anchor>//api/name/flatFontOfSize:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIFont(FlatUI)/boldFlatFontOfSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIFont *)boldFlatFontOfSize:(CGFloat)size</Declaration>
+			
+			
+			<Anchor>//api/name/boldFlatFontOfSize:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIFont(FlatUI)/italicFlatFontOfSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIFont+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIFont *)italicFlatFontOfSize:(CGFloat)size</Declaration>
+			
+			
+			<Anchor>//api/name/italicFlatFontOfSize:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

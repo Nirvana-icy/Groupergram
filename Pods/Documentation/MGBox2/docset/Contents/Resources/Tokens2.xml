@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MGBox.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MGBox</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGBox/box</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>+ (id)box</Declaration>
+			
+			
+			<Anchor>//api/name/box</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGBox/boxWithSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>+ (id)boxWithSize:(CGSize)size</Declaration>
+			
+			
+			<Anchor>//api/name/boxWithSize:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>- (void)setup</Declaration>
+			
+			
+			<Anchor>//api/name/setup</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/layoutWithSpeed:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>- (void)layoutWithSpeed:(NSTimeInterval)speed completion:(Block)completion</Declaration>
+			
+			
+			<Anchor>//api/name/layoutWithSpeed:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setRasterize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL rasterize</Declaration>
+			
+			
+			<Anchor>//api/name/rasterize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGBox/rasterize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL rasterize</Declaration>
+			
+			
+			<Anchor>//api/name/rasterize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setBorderStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGBorderStyle borderStyle</Declaration>
+			
+			
+			<Anchor>//api/name/borderStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGBox/borderStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGBorderStyle borderStyle</Declaration>
+			
+			
+			<Anchor>//api/name/borderStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setTopBorderColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *topBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/topBorderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGBox/topBorderColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *topBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/topBorderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setBottomBorderColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *bottomBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/bottomBorderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGBox/bottomBorderColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *bottomBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/bottomBorderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setLeftBorderColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *leftBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/leftBorderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGBox/leftBorderColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *leftBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/leftBorderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setRightBorderColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *rightBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/rightBorderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGBox/rightBorderColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *rightBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/rightBorderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setTopBorder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *topBorder</Declaration>
+			
+			
+			<Anchor>//api/name/topBorder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGBox/topBorder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *topBorder</Declaration>
+			
+			
+			<Anchor>//api/name/topBorder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setBottomBorder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *bottomBorder</Declaration>
+			
+			
+			<Anchor>//api/name/bottomBorder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGBox/bottomBorder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *bottomBorder</Declaration>
+			
+			
+			<Anchor>//api/name/bottomBorder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setLeftBorder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *leftBorder</Declaration>
+			
+			
+			<Anchor>//api/name/leftBorder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGBox/leftBorder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *leftBorder</Declaration>
+			
+			
+			<Anchor>//api/name/leftBorder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setRightBorder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *rightBorder</Declaration>
+			
+			
+			<Anchor>//api/name/rightBorder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGBox/rightBorder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIView *rightBorder</Declaration>
+			
+			
+			<Anchor>//api/name/rightBorder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/setBorderColors:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>- (void)setBorderColors:(id)colors</Declaration>
+			
+			
+			<Anchor>//api/name/setBorderColors:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBox/screenshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBox.h</DeclaredIn>			
+			
+			<Declaration>- (UIImage *)screenshot:(float)scale</Declaration>
+			
+			
+			<Anchor>//api/name/screenshot:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

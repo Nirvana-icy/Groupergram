@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MGScrollView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MGScrollView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGScrollView/setKeepAboveKeyboard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) UIView *keepAboveKeyboard</Declaration>
+			
+			
+			<Anchor>//api/name/keepAboveKeyboard</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGScrollView/keepAboveKeyboard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak) UIView *keepAboveKeyboard</Declaration>
+			
+			
+			<Anchor>//api/name/keepAboveKeyboard</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGScrollView/scroller</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>+ (id)scroller</Declaration>
+			
+			
+			<Anchor>//api/name/scroller</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGScrollView/scrollerWithSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>+ (id)scrollerWithSize:(CGSize)size</Declaration>
+			
+			
+			<Anchor>//api/name/scrollerWithSize:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGScrollView/setup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setup</Declaration>
+			
+			
+			<Anchor>//api/name/setup</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGScrollView/layoutWithSpeed:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>- (void)layoutWithSpeed:(NSTimeInterval)speed completion:(Block)completion</Declaration>
+			
+			
+			<Anchor>//api/name/layoutWithSpeed:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGScrollView/scrollToView:withMargin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>- (void)scrollToView:(UIView *)view withMargin:(CGFloat)margin</Declaration>
+			
+			
+			<Anchor>//api/name/scrollToView:withMargin:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGScrollView/snapToNearestBox</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>- (void)snapToNearestBox</Declaration>
+			
+			
+			<Anchor>//api/name/snapToNearestBox</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGScrollView/setKeepFirstResponderAboveKeyboard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL keepFirstResponderAboveKeyboard</Declaration>
+			
+			
+			<Anchor>//api/name/keepFirstResponderAboveKeyboard</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGScrollView/keepFirstResponderAboveKeyboard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL keepFirstResponderAboveKeyboard</Declaration>
+			
+			
+			<Anchor>//api/name/keepFirstResponderAboveKeyboard</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGScrollView/setKeyboardMargin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat keyboardMargin</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGScrollView/keyboardMargin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat keyboardMargin</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGScrollView/restoreAfterKeyboardClose:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGScrollView.h</DeclaredIn>			
+			
+			<Declaration>- (void)restoreAfterKeyboardClose:(Block)completion</Declaration>
+			
+			
+			<Anchor>//api/name/restoreAfterKeyboardClose:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

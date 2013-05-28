@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIControl+MGEvents.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIControl(MGEvents)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIControl+MGEvents.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIControl(MGEvents)/setMGEventHandlers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIControl+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *MGEventHandlers</Declaration>
+			
+			
+			<Anchor>//api/name/MGEventHandlers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIControl(MGEvents)/MGEventHandlers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIControl+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableDictionary *MGEventHandlers</Declaration>
+			
+			
+			<Anchor>//api/name/MGEventHandlers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIControl(MGEvents)/onControlEvent:do:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIControl+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>- (void)onControlEvent:(UIControlEvents)controlEvent do:(Block)handler</Declaration>
+			
+			
+			<Anchor>//api/name/onControlEvent:do:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIControl(MGEvents)/removeHandlersForControlEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIControl+MGEvents.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeHandlersForControlEvent:(UIControlEvents)controlEvent</Declaration>
+			
+			
+			<Anchor>//api/name/removeHandlersForControlEvent:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/ktran/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.mfsidemenu.MFSideMenu-0.2.docset
+Time: 2013-05-25 23:50:28 +0000

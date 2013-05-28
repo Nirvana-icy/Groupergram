@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UISlider+FlatUI.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UISlider(FlatUI)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UISlider+FlatUI.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UISlider(FlatUI)/configureFlatSliderWithTrackColor:progressColor:thumbColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UISlider+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>- (void)configureFlatSliderWithTrackColor:(UIColor *)trackColor progressColor:(UIColor *)progressColor thumbColor:(UIColor *)thumbColor</Declaration>
+			
+			
+			<Anchor>//api/name/configureFlatSliderWithTrackColor:progressColor:thumbColor:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

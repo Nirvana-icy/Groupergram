@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIColor+FlatUI.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIColor(FlatUI)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/turquoiseColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)turquoiseColor</Declaration>
+			
+			
+			<Anchor>//api/name/turquoiseColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/greenSeaColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)greenSeaColor</Declaration>
+			
+			
+			<Anchor>//api/name/greenSeaColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/emerlandColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)emerlandColor</Declaration>
+			
+			
+			<Anchor>//api/name/emerlandColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/nephritisColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)nephritisColor</Declaration>
+			
+			
+			<Anchor>//api/name/nephritisColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/peterRiverColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)peterRiverColor</Declaration>
+			
+			
+			<Anchor>//api/name/peterRiverColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/belizeHoleColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)belizeHoleColor</Declaration>
+			
+			
+			<Anchor>//api/name/belizeHoleColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/amethystColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)amethystColor</Declaration>
+			
+			
+			<Anchor>//api/name/amethystColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/wisteriaColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)wisteriaColor</Declaration>
+			
+			
+			<Anchor>//api/name/wisteriaColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/wetAsphaltColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)wetAsphaltColor</Declaration>
+			
+			
+			<Anchor>//api/name/wetAsphaltColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/midnightBlueColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)midnightBlueColor</Declaration>
+			
+			
+			<Anchor>//api/name/midnightBlueColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/sunflowerColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)sunflowerColor</Declaration>
+			
+			
+			<Anchor>//api/name/sunflowerColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/tangerineColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)tangerineColor</Declaration>
+			
+			
+			<Anchor>//api/name/tangerineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/carrotColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)carrotColor</Declaration>
+			
+			
+			<Anchor>//api/name/carrotColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/pumpkinColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)pumpkinColor</Declaration>
+			
+			
+			<Anchor>//api/name/pumpkinColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/alizarinColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)alizarinColor</Declaration>
+			
+			
+			<Anchor>//api/name/alizarinColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/pomegranateColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)pomegranateColor</Declaration>
+			
+			
+			<Anchor>//api/name/pomegranateColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/cloudsColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)cloudsColor</Declaration>
+			
+			
+			<Anchor>//api/name/cloudsColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/silverColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)silverColor</Declaration>
+			
+			
+			<Anchor>//api/name/silverColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/concreteColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)concreteColor</Declaration>
+			
+			
+			<Anchor>//api/name/concreteColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/asbestosColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)asbestosColor</Declaration>
+			
+			
+			<Anchor>//api/name/asbestosColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(FlatUI)/blendedColorWithForegroundColor:backgroundColor:percentBlend:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+FlatUI.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)blendedColorWithForegroundColor:(UIColor *)foregroundColor backgroundColor:(UIColor *)backgroundColor percentBlend:(CGFloat)percentBlend</Declaration>
+			
+			
+			<Anchor>//api/name/blendedColorWithForegroundColor:backgroundColor:percentBlend:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

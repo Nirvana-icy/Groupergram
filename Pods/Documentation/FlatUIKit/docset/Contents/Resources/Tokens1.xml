@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/FUIAlertView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/FUIAlertView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTitle:(NSString *)title message:(NSString *)message delegate:(id&lt;FUIAlertViewDelegate&gt;)delegate cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ...</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;FUIAlertViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) id&lt;FUIAlertViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/message</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/addButtonWithTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)addButtonWithTitle:(NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/addButtonWithTitle:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/buttonTitleAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)buttonTitleAtIndex:(NSInteger)buttonIndex</Declaration>
+			
+			
+			<Anchor>//api/name/buttonTitleAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setNumberOfButtons:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger numberOfButtons</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfButtons</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/numberOfButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger numberOfButtons</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfButtons</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setCancelButtonIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSInteger cancelButtonIndex</Declaration>
+			
+			
+			<Anchor>//api/name/cancelButtonIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/cancelButtonIndex</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSInteger cancelButtonIndex</Declaration>
+			
+			
+			<Anchor>//api/name/cancelButtonIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setVisible:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, getter=isVisible) BOOL visible</Declaration>
+			
+			
+			<Anchor>//api/name/visible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/visible</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, getter=isVisible) BOOL visible</Declaration>
+			
+			
+			<Anchor>//api/name/visible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/show</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)show</Declaration>
+			
+			
+			<Anchor>//api/name/show</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/dismissWithClickedButtonIndex:animated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)dismissWithClickedButtonIndex:(NSInteger)buttonIndex animated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/dismissWithClickedButtonIndex:animated:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setButtons:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSMutableArray *buttons</Declaration>
+			
+			
+			<Anchor>//api/name/buttons</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/buttons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) NSMutableArray *buttons</Declaration>
+			
+			
+			<Anchor>//api/name/buttons</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setTitleLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak, readonly) UILabel *titleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/titleLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/titleLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak, readonly) UILabel *titleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/titleLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setMessageLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak, readonly) UILabel *messageLabel</Declaration>
+			
+			
+			<Anchor>//api/name/messageLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/messageLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak, readonly) UILabel *messageLabel</Declaration>
+			
+			
+			<Anchor>//api/name/messageLabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setBackgroundOverlay:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak, readonly) UIView *backgroundOverlay</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundOverlay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/backgroundOverlay</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak, readonly) UIView *backgroundOverlay</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundOverlay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setAlertContainer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak, readonly) UIView *alertContainer</Declaration>
+			
+			
+			<Anchor>//api/name/alertContainer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/alertContainer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, weak, readonly) UIView *alertContainer</Declaration>
+			
+			
+			<Anchor>//api/name/alertContainer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setButtonSpacing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat buttonSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSpacing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/buttonSpacing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat buttonSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSpacing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setAnimationDuration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat animationDuration</Declaration>
+			
+			
+			<Anchor>//api/name/animationDuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/animationDuration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat animationDuration</Declaration>
+			
+			
+			<Anchor>//api/name/animationDuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setDefaultButtonFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIFont *defaultButtonFont</Declaration>
+			
+			
+			<Anchor>//api/name/defaultButtonFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/defaultButtonFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIFont *defaultButtonFont</Declaration>
+			
+			
+			<Anchor>//api/name/defaultButtonFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setDefaultButtonTitleColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *defaultButtonTitleColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultButtonTitleColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/defaultButtonTitleColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *defaultButtonTitleColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultButtonTitleColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setDefaultButtonColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *defaultButtonColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultButtonColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/defaultButtonColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *defaultButtonColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultButtonColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FUIAlertView/setDefaultButtonShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *defaultButtonShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultButtonShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FUIAlertView/defaultButtonShadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *defaultButtonShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultButtonShadowColor</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIColor+MGExpanded.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIColor(MGExpanded)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/setColorSpaceModel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGColorSpaceModel colorSpaceModel</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpaceModel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIColor(MGExpanded)/colorSpaceModel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGColorSpaceModel colorSpaceModel</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpaceModel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/setCanProvideRGBComponents:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL canProvideRGBComponents</Declaration>
+			
+			
+			<Anchor>//api/name/canProvideRGBComponents</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIColor(MGExpanded)/canProvideRGBComponents</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL canProvideRGBComponents</Declaration>
+			
+			
+			<Anchor>//api/name/canProvideRGBComponents</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/setRed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat red</Declaration>
+			
+			
+			<Anchor>//api/name/red</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIColor(MGExpanded)/red</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat red</Declaration>
+			
+			
+			<Anchor>//api/name/red</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/setGreen:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat green</Declaration>
+			
+			
+			<Anchor>//api/name/green</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIColor(MGExpanded)/green</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat green</Declaration>
+			
+			
+			<Anchor>//api/name/green</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/setBlue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat blue</Declaration>
+			
+			
+			<Anchor>//api/name/blue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIColor(MGExpanded)/blue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat blue</Declaration>
+			
+			
+			<Anchor>//api/name/blue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/setWhite:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat white</Declaration>
+			
+			
+			<Anchor>//api/name/white</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIColor(MGExpanded)/white</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat white</Declaration>
+			
+			
+			<Anchor>//api/name/white</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/setAlpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat alpha</Declaration>
+			
+			
+			<Anchor>//api/name/alpha</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIColor(MGExpanded)/alpha</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat alpha</Declaration>
+			
+			
+			<Anchor>//api/name/alpha</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/setHue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat hue</Declaration>
+			
+			
+			<Anchor>//api/name/hue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIColor(MGExpanded)/hue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat hue</Declaration>
+			
+			
+			<Anchor>//api/name/hue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/setSaturation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat saturation</Declaration>
+			
+			
+			<Anchor>//api/name/saturation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIColor(MGExpanded)/saturation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat saturation</Declaration>
+			
+			
+			<Anchor>//api/name/saturation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/setBrightness:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat brightness</Declaration>
+			
+			
+			<Anchor>//api/name/brightness</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIColor(MGExpanded)/brightness</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat brightness</Declaration>
+			
+			
+			<Anchor>//api/name/brightness</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/setRgbHex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) UInt32 rgbHex</Declaration>
+			
+			
+			<Anchor>//api/name/rgbHex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/UIColor(MGExpanded)/rgbHex</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) UInt32 rgbHex</Declaration>
+			
+			
+			<Anchor>//api/name/rgbHex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorSpaceString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)colorSpaceString</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpaceString</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/arrayFromRGBAComponents</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)arrayFromRGBAComponents</Declaration>
+			
+			
+			<Anchor>//api/name/arrayFromRGBAComponents</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/red:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)red:(CGFloat *)r green:(CGFloat *)g blue:(CGFloat *)b alpha:(CGFloat *)a</Declaration>
+			
+			
+			<Anchor>//api/name/red:green:blue:alpha:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/hue:saturation:brightness:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)hue:(CGFloat *)h saturation:(CGFloat *)s brightness:(CGFloat *)b alpha:(CGFloat *)a</Declaration>
+			
+			
+			<Anchor>//api/name/hue:saturation:brightness:alpha:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByLuminanceMapping</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByLuminanceMapping</Declaration>
+			
+			
+			<Anchor>//api/name/colorByLuminanceMapping</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByMultiplyingByRed:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByMultiplyingByRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha</Declaration>
+			
+			
+			<Anchor>//api/name/colorByMultiplyingByRed:green:blue:alpha:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByAddingRed:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByAddingRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha</Declaration>
+			
+			
+			<Anchor>//api/name/colorByAddingRed:green:blue:alpha:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByLighteningToRed:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByLighteningToRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha</Declaration>
+			
+			
+			<Anchor>//api/name/colorByLighteningToRed:green:blue:alpha:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByDarkeningToRed:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByDarkeningToRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha</Declaration>
+			
+			
+			<Anchor>//api/name/colorByDarkeningToRed:green:blue:alpha:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByAddingHue:saturation:brightness:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByAddingHue:(CGFloat)hue saturation:(CGFloat)saturation brightness:(CGFloat)brightness alpha:(CGFloat)alpha</Declaration>
+			
+			
+			<Anchor>//api/name/colorByAddingHue:saturation:brightness:alpha:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByMultiplyingBy:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByMultiplyingBy:(CGFloat)f</Declaration>
+			
+			
+			<Anchor>//api/name/colorByMultiplyingBy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByAdding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByAdding:(CGFloat)f</Declaration>
+			
+			
+			<Anchor>//api/name/colorByAdding:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByAdding:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByAdding:(CGFloat)f alpha:(CGFloat)alpha</Declaration>
+			
+			
+			<Anchor>//api/name/colorByAdding:alpha:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByLighteningTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByLighteningTo:(CGFloat)f</Declaration>
+			
+			
+			<Anchor>//api/name/colorByLighteningTo:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByDarkeningTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByDarkeningTo:(CGFloat)f</Declaration>
+			
+			
+			<Anchor>//api/name/colorByDarkeningTo:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByMultiplyingByColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByMultiplyingByColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/colorByMultiplyingByColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByAddingColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByAddingColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/colorByAddingColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByLighteningToColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByLighteningToColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/colorByLighteningToColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorByDarkeningToColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorByDarkeningToColor:(UIColor *)color</Declaration>
+			
+			
+			<Anchor>//api/name/colorByDarkeningToColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/stringFromColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)stringFromColor</Declaration>
+			
+			
+			<Anchor>//api/name/stringFromColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/hexStringFromColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)hexStringFromColor</Declaration>
+			
+			
+			<Anchor>//api/name/hexStringFromColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/randomColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)randomColor</Declaration>
+			
+			
+			<Anchor>//api/name/randomColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/semiRandomColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)semiRandomColor</Declaration>
+			
+			
+			<Anchor>//api/name/semiRandomColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorWithString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)colorWithString:(NSString *)stringToConvert</Declaration>
+			
+			
+			<Anchor>//api/name/colorWithString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorWithRGBHex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)colorWithRGBHex:(UInt32)hex</Declaration>
+			
+			
+			<Anchor>//api/name/colorWithRGBHex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorWithHexString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)colorWithHexString:(NSString *)stringToConvert</Declaration>
+			
+			
+			<Anchor>//api/name/colorWithHexString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIColor(MGExpanded)/colorWithName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIColor+MGExpanded.h</DeclaredIn>			
+			
+			<Declaration>+ (UIColor *)colorWithName:(NSString *)cssColorName</Declaration>
+			
+			
+			<Anchor>//api/name/colorWithName:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

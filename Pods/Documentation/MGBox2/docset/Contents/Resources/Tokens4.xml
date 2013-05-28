@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MGLayoutManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MGLayoutManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutManager.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLayoutManager/layoutBoxesIn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutManager.h</DeclaredIn>			
+			
+			<Declaration>+ (void)layoutBoxesIn:(UIView&lt;MGLayoutBox&gt; *)container</Declaration>
+			
+			
+			<Anchor>//api/name/layoutBoxesIn:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLayoutManager/layoutBoxesIn:withSpeed:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutManager.h</DeclaredIn>			
+			
+			<Declaration>+ (void)layoutBoxesIn:(UIView&lt;MGLayoutBox&gt; *)container withSpeed:(NSTimeInterval)speed completion:(Block)completion</Declaration>
+			
+			
+			<Anchor>//api/name/layoutBoxesIn:withSpeed:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLayoutManager/positionAttachedBoxesIn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutManager.h</DeclaredIn>			
+			
+			<Declaration>+ (void)positionAttachedBoxesIn:(UIView&lt;MGLayoutBox&gt; *)container</Declaration>
+			
+			
+			<Anchor>//api/name/positionAttachedBoxesIn:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLayoutManager/findBoxesInView:notInSet:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutManager.h</DeclaredIn>			
+			
+			<Declaration>+ (NSArray *)findBoxesInView:(UIView *)view notInSet:(id)boxes</Declaration>
+			
+			
+			<Anchor>//api/name/findBoxesInView:notInSet:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLayoutManager/findViewsInView:notInSet:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutManager.h</DeclaredIn>			
+			
+			<Declaration>+ (NSSet *)findViewsInView:(UIView *)view notInSet:(id)boxes</Declaration>
+			
+			
+			<Anchor>//api/name/findViewsInView:notInSet:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLayoutManager/stackByZIndexIn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLayoutManager.h</DeclaredIn>			
+			
+			<Declaration>+ (void)stackByZIndexIn:(UIView *)container</Declaration>
+			
+			
+			<Anchor>//api/name/stackByZIndexIn:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

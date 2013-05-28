@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/FUIAlertViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/FUIAlertViewDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/FUIAlertViewDelegate/alertView:clickedButtonAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)alertView:(FUIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex</Declaration>
+			
+			
+			<Anchor>//api/name/alertView:clickedButtonAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/FUIAlertViewDelegate/willPresentAlertView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)willPresentAlertView:(FUIAlertView *)alertView</Declaration>
+			
+			
+			<Anchor>//api/name/willPresentAlertView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/FUIAlertViewDelegate/didPresentAlertView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)didPresentAlertView:(FUIAlertView *)alertView</Declaration>
+			
+			
+			<Anchor>//api/name/didPresentAlertView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/FUIAlertViewDelegate/alertView:willDismissWithButtonIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)alertView:(FUIAlertView *)alertView willDismissWithButtonIndex:(NSInteger)buttonIndex</Declaration>
+			
+			
+			<Anchor>//api/name/alertView:willDismissWithButtonIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/FUIAlertViewDelegate/alertView:didDismissWithButtonIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FUIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)alertView:(FUIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex</Declaration>
+			
+			
+			<Anchor>//api/name/alertView:didDismissWithButtonIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

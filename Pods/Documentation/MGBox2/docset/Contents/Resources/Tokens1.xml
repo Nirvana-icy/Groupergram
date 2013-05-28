@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MGBlockWrapper.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MGBlockWrapper</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBlockWrapper.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBlockWrapper/setBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBlockWrapper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block block</Declaration>
+			
+			
+			<Anchor>//api/name/block</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGBlockWrapper/block</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBlockWrapper.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) Block block</Declaration>
+			
+			
+			<Anchor>//api/name/block</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGBlockWrapper/wrapperForBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBlockWrapper.h</DeclaredIn>			
+			
+			<Declaration>+ (MGBlockWrapper *)wrapperForBlock:(Block)block</Declaration>
+			
+			
+			<Anchor>//api/name/wrapperForBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGBlockWrapper/doit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGBlockWrapper.h</DeclaredIn>			
+			
+			<Declaration>- (void)doit</Declaration>
+			
+			
+			<Anchor>//api/name/doit</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

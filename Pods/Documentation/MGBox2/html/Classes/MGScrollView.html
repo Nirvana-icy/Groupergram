@@ -1,0 +1,495 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>MGScrollView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.6 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">MGBox2 2.0.0 </a></h1>
+				<a id="developerHome" href="../index.html">Matt Greenfield</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">MGScrollView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/keepAboveKeyboard">&nbsp;&nbsp;&nbsp;&nbsp;keepAboveKeyboard</option>
+	
+	<option value="//api/name/keepFirstResponderAboveKeyboard">&nbsp;&nbsp;&nbsp;&nbsp;keepFirstResponderAboveKeyboard</option>
+	
+	<option value="//api/name/keyboardMargin">&nbsp;&nbsp;&nbsp;&nbsp;keyboardMargin</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/scroller">&nbsp;&nbsp;&nbsp;&nbsp;+ scroller</option>
+	
+	<option value="//api/name/scrollerWithSize:">&nbsp;&nbsp;&nbsp;&nbsp;+ scrollerWithSize:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/layoutWithSpeed:completion:">&nbsp;&nbsp;&nbsp;&nbsp;- layoutWithSpeed:completion:</option>
+	
+	<option value="//api/name/restoreAfterKeyboardClose:">&nbsp;&nbsp;&nbsp;&nbsp;- restoreAfterKeyboardClose:</option>
+	
+	<option value="//api/name/scrollToView:withMargin:">&nbsp;&nbsp;&nbsp;&nbsp;- scrollToView:withMargin:</option>
+	
+	<option value="//api/name/setup">&nbsp;&nbsp;&nbsp;&nbsp;- setup</option>
+	
+	<option value="//api/name/snapToNearestBox">&nbsp;&nbsp;&nbsp;&nbsp;- snapToNearestBox</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/keepAboveKeyboard">keepAboveKeyboard</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/keepFirstResponderAboveKeyboard">keepFirstResponderAboveKeyboard</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/keyboardMargin">keyboardMargin</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scroller">scroller</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scrollerWithSize:">scrollerWithSize:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/layoutWithSpeed:completion:">layoutWithSpeed:completion:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/restoreAfterKeyboardClose:">restoreAfterKeyboardClose:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scrollToView:withMargin:">scrollToView:withMargin:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setup">setup</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/snapToNearestBox">snapToNearestBox</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="MGScrollView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">MGScrollView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIScrollView</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/MGLayoutBox.html">MGLayoutBox</a><br />UIGestureRecognizerDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">MGScrollView.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/keepAboveKeyboard">&nbsp;&nbsp;keepAboveKeyboard</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scroller">+&nbsp;scroller</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scrollerWithSize:">+&nbsp;scrollerWithSize:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setup">&ndash;&nbsp;setup</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/layoutWithSpeed:completion:">&ndash;&nbsp;layoutWithSpeed:completion:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scrollToView:withMargin:">&ndash;&nbsp;scrollToView:withMargin:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/snapToNearestBox">&ndash;&nbsp;snapToNearestBox</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/keepFirstResponderAboveKeyboard">&nbsp;&nbsp;keepFirstResponderAboveKeyboard</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/keyboardMargin">&nbsp;&nbsp;keyboardMargin</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/restoreAfterKeyboardClose:">&ndash;&nbsp;restoreAfterKeyboardClose:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/keepAboveKeyboard" title="keepAboveKeyboard"></a>
+	<h3 class="subsubtitle method-title">keepAboveKeyboard</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) UIView *keepAboveKeyboard</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/keepFirstResponderAboveKeyboard" title="keepFirstResponderAboveKeyboard"></a>
+	<h3 class="subsubtitle method-title">keepFirstResponderAboveKeyboard</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL keepFirstResponderAboveKeyboard</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/keyboardMargin" title="keyboardMargin"></a>
+	<h3 class="subsubtitle method-title">keyboardMargin</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat keyboardMargin</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/scroller" title="scroller"></a>
+	<h3 class="subsubtitle method-title">scroller</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (id)scroller</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scrollerWithSize:" title="scrollerWithSize:"></a>
+	<h3 class="subsubtitle method-title">scrollerWithSize:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (id)scrollerWithSize:(CGSize)<em>size</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/layoutWithSpeed:completion:" title="layoutWithSpeed:completion:"></a>
+	<h3 class="subsubtitle method-title">layoutWithSpeed:completion:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)layoutWithSpeed:(NSTimeInterval)<em>speed</em> completion:(Block)<em>completion</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/restoreAfterKeyboardClose:" title="restoreAfterKeyboardClose:"></a>
+	<h3 class="subsubtitle method-title">restoreAfterKeyboardClose:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)restoreAfterKeyboardClose:(Block)<em>completion</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scrollToView:withMargin:" title="scrollToView:withMargin:"></a>
+	<h3 class="subsubtitle method-title">scrollToView:withMargin:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)scrollToView:(UIView *)<em>view</em> withMargin:(CGFloat)<em>margin</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setup" title="setup"></a>
+	<h3 class="subsubtitle method-title">setup</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setup</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/snapToNearestBox" title="snapToNearestBox"></a>
+	<h3 class="subsubtitle method-title">snapToNearestBox</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)snapToNearestBox</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Matt Greenfield. All rights reserved. (Last updated: 2013-05-25)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.6 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

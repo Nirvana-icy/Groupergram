@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MGLine.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MGLine</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setLeftItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *leftItems</Declaration>
+			
+			
+			<Anchor>//api/name/leftItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/leftItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *leftItems</Declaration>
+			
+			
+			<Anchor>//api/name/leftItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setMiddleItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *middleItems</Declaration>
+			
+			
+			<Anchor>//api/name/middleItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/middleItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *middleItems</Declaration>
+			
+			
+			<Anchor>//api/name/middleItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setRightItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *rightItems</Declaration>
+			
+			
+			<Anchor>//api/name/rightItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/rightItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSMutableArray *rightItems</Declaration>
+			
+			
+			<Anchor>//api/name/rightItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setMultilineLeft:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *multilineLeft</Declaration>
+			
+			
+			<Anchor>//api/name/multilineLeft</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/multilineLeft</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *multilineLeft</Declaration>
+			
+			
+			<Anchor>//api/name/multilineLeft</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setMultilineMiddle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *multilineMiddle</Declaration>
+			
+			
+			<Anchor>//api/name/multilineMiddle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/multilineMiddle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *multilineMiddle</Declaration>
+			
+			
+			<Anchor>//api/name/multilineMiddle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setMultilineRight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *multilineRight</Declaration>
+			
+			
+			<Anchor>//api/name/multilineRight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/multilineRight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *multilineRight</Declaration>
+			
+			
+			<Anchor>//api/name/multilineRight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setUnderlineType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGUnderlineType underlineType</Declaration>
+			
+			
+			<Anchor>//api/name/underlineType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/underlineType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGUnderlineType underlineType</Declaration>
+			
+			
+			<Anchor>//api/name/underlineType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setSidePrecedence:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGSidePrecedence sidePrecedence</Declaration>
+			
+			
+			<Anchor>//api/name/sidePrecedence</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/sidePrecedence</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) MGSidePrecedence sidePrecedence</Declaration>
+			
+			
+			<Anchor>//api/name/sidePrecedence</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/font</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setMiddleFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIFont *middleFont</Declaration>
+			
+			
+			<Anchor>//api/name/middleFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/middleFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIFont *middleFont</Declaration>
+			
+			
+			<Anchor>//api/name/middleFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setRightFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIFont *rightFont</Declaration>
+			
+			
+			<Anchor>//api/name/rightFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/rightFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIFont *rightFont</Declaration>
+			
+			
+			<Anchor>//api/name/rightFont</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/textColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setMiddleTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *middleTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/middleTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/middleTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *middleTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/middleTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setRightTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *rightTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/rightTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/rightTextColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *rightTextColor</Declaration>
+			
+			
+			<Anchor>//api/name/rightTextColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setTextShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/textShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/textShadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *textShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/textShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setMiddleTextShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *middleTextShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/middleTextShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/middleTextShadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *middleTextShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/middleTextShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setRightTextShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *rightTextShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/rightTextShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/rightTextShadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIColor *rightTextShadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/rightTextShadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setLeftTextShadowOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize leftTextShadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/leftTextShadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/leftTextShadowOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize leftTextShadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/leftTextShadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setMiddleTextShadowOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize middleTextShadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/middleTextShadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/middleTextShadowOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize middleTextShadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/middleTextShadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setRightTextShadowOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize rightTextShadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/rightTextShadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/rightTextShadowOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGSize rightTextShadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/rightTextShadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setLeftItemsTextAlignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTextAlignment leftItemsTextAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/leftItemsTextAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/leftItemsTextAlignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTextAlignment leftItemsTextAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/leftItemsTextAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setMiddleItemsTextAlignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTextAlignment middleItemsTextAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/middleItemsTextAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/middleItemsTextAlignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTextAlignment middleItemsTextAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/middleItemsTextAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setRightItemsTextAlignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTextAlignment rightItemsTextAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/rightItemsTextAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/rightItemsTextAlignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) NSTextAlignment rightItemsTextAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/rightItemsTextAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setSolidUnderline:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) CALayer *solidUnderline</Declaration>
+			
+			
+			<Anchor>//api/name/solidUnderline</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/solidUnderline</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) CALayer *solidUnderline</Declaration>
+			
+			
+			<Anchor>//api/name/solidUnderline</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setWidenAsNeeded:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL widenAsNeeded</Declaration>
+			
+			
+			<Anchor>//api/name/widenAsNeeded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/widenAsNeeded</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL widenAsNeeded</Declaration>
+			
+			
+			<Anchor>//api/name/widenAsNeeded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setItemPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat itemPadding</Declaration>
+			
+			
+			<Anchor>//api/name/itemPadding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/itemPadding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat itemPadding</Declaration>
+			
+			
+			<Anchor>//api/name/itemPadding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setMinHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat minHeight</Declaration>
+			
+			
+			<Anchor>//api/name/minHeight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/minHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat minHeight</Declaration>
+			
+			
+			<Anchor>//api/name/minHeight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/setMaxHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat maxHeight</Declaration>
+			
+			
+			<Anchor>//api/name/maxHeight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MGLine/maxHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat maxHeight</Declaration>
+			
+			
+			<Anchor>//api/name/maxHeight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLine/line</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>+ (id)line</Declaration>
+			
+			
+			<Anchor>//api/name/line</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLine/lineWithSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>+ (id)lineWithSize:(CGSize)size</Declaration>
+			
+			
+			<Anchor>//api/name/lineWithSize:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLine/lineWithLeft:right:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>+ (id)lineWithLeft:(NSObject *)left right:(NSObject *)right</Declaration>
+			
+			
+			<Anchor>//api/name/lineWithLeft:right:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLine/lineWithLeft:right:size:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>+ (id)lineWithLeft:(NSObject *)left right:(NSObject *)right size:(CGSize)size</Declaration>
+			
+			
+			<Anchor>//api/name/lineWithLeft:right:size:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLine/lineWithMultilineLeft:right:width:minHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>+ (id)lineWithMultilineLeft:(NSString *)left right:(id)right width:(CGFloat)width minHeight:(CGFloat)height</Declaration>
+			
+			
+			<Anchor>//api/name/lineWithMultilineLeft:right:width:minHeight:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLine/lineWithLeft:multilineRight:width:minHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>+ (id)lineWithLeft:(id)left multilineRight:(NSString *)right width:(CGFloat)width minHeight:(CGFloat)height</Declaration>
+			
+			
+			<Anchor>//api/name/lineWithLeft:multilineRight:width:minHeight:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MGLine/multilineWithText:font:width:padding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>+ (id)multilineWithText:(NSString *)text font:(UIFont *)font width:(CGFloat)width padding:(UIEdgeInsets)padding</Declaration>
+			
+			
+			<Anchor>//api/name/multilineWithText:font:width:padding:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/allItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>- (NSSet *)allItems</Declaration>
+			
+			
+			<Anchor>//api/name/allItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MGLine/makeLabel:placement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MGLine.h</DeclaredIn>			
+			
+			<Declaration>- (UILabel *)makeLabel:(id)text placement:(MGItemPlacement)placement</Declaration>
+			
+			
+			<Anchor>//api/name/makeLabel:placement:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
